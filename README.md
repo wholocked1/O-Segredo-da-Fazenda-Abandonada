@@ -10,10 +10,10 @@ Trabalho de Desenvolvimento de Jogos apresentado ao Centro Universitário FEI, c
 
 ## Tópicos
 - [Introdução](./docs/1-Introdução.md)
-- [Público Alvo](./docs/2-publico-alvo.md)
-- [Estética](./docs/3-estetica.md)
-- [Dinâmica](./docs/4-dinamica.md)
-- [Mecânica](./docs/5-mecanica.md)
-- [Prefabs](./docs/6-prefabs.md)
-- [Prototipação](./docs/7-prototipacao.md)
-- [Testes](./docs/8-testes.md)
+- [Público Alvo](./docs/2-Publico_Alvo.md)
+- [Estética](./docs/3-Estetica.md)
+- [Dinâmica](./docs/4-Dinamica.md)
+- [Mecânica](./docs/5-Mecanica.md)
+- [Prefabs](./docs/6-Prefabs.md)
+- [Prototipação](./docs/7-Prototipação-no-papel.md)
+- [Testes](./docs/8-Teste.md)
