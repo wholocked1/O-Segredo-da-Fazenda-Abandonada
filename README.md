@@ -9,7 +9,7 @@ Trabalho de Desenvolvimento de Jogos apresentado ao Centro Universitário FEI, c
 - Luca Anequini Antoniazzi
 
 ## Tópicos
-- [Introdução](./docs/1-Introducão.md)
+- [Introdução](./docs/1-Introdução.md)
 - [Público Alvo](./docs/2-publico-alvo.md)
 - [Estética](./docs/3-estetica.md)
 - [Dinâmica](./docs/4-dinamica.md)
