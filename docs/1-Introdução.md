@@ -2,6 +2,7 @@
 **Personagens:**
 - Protagonista (ainda sem nome) (player): Personagem que será jogado pelo player
 durante toda a história. <br>
+
 **Componentes da mecânica:**
 - Mapa: ambientação, barreiras, designs de mapa, dentre outras coisas que serão
 decididos ao decorrer da implantação do trabalho.<br>
