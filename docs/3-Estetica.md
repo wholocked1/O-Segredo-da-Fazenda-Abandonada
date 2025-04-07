@@ -4,9 +4,9 @@ O protagonista acorda em uma fazenda abandonada, acorrentado a uma parede, sem s
 b) Definir quais os personagens que farão parte do jogo: Um herói, uma nave espacial,
 inimigos, tartarugas, encanadores ...<br>
 
-Protagonista: Uma pessoa sem memória, o explorador que aos poucos vai recuperando sua identidade.
+- Protagonista: Uma pessoa sem memória, o explorador que aos poucos vai recuperando sua identidade.
 
-Fazendeiro (o próprio protagonista): É relevado apenas no final que o protagonista é o próprio fazendeiro, cometeu muitos erros como acidentes fatais e tem um caráter controverso.
+- Fazendeiro (o próprio protagonista): É relevado apenas no final que o protagonista é o próprio fazendeiro, cometeu muitos erros como acidentes fatais e tem um caráter controverso.
 
 c) Como irá funcionar a atitude lusória do seu jogo?<br>
 A atitude lusória está relacionada com a curiosidade do jogador em desvendar o mistério da fazenda. Conforme o jogador avança com os puzzles o jogo libera partes da história.
@@ -79,8 +79,8 @@ d) Sentidos<br>
 – Quais os sentidos dos jogadores você gostaria de explorar no seu jogo?<br>
 – O jogo vai ter elementos visuais, sonoros, táteis, degustativos, olfativos?<br>
 Como esses elementos são apresentados para o jogador?<br>
-Visuais: ambientação sombria e escura para criar o clima misterioso da fazenda.
-Sonoros: sons característicos de fazenda e musica misteriosa, deixando o jogador ter uma experiência mais imersiva.
+- Visuais: ambientação sombria e escura para criar o clima misterioso da fazenda.
+- Sonoros: sons característicos de fazenda e musica misteriosa, deixando o jogador ter uma experiência mais imersiva.
 
 
 Guiando o Jogador:<br>
