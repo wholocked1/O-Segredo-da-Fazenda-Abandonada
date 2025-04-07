@@ -4,3 +4,12 @@ a) Loop principal<br>
 b) Atores e seus componentes<br>
 c) Sprites<br>
 d) background<br>
+
+
+## Loop principal
+
+## Atores e seus componentes
+
+## Sprites
+
+## Background
