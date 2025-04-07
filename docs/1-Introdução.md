@@ -12,10 +12,10 @@ itens colatáveis (informações a baixo) <br>
 resolve-los. <br>
 
 
-**Ambientação:** Fazenda abandonada.<br>
+**Ambientação:** Fazenda abandonada.<br><br>
 **Loop principal:** Será necessário que haja uma verificação constante de inputs do player para
-mover, interagir e coletar informações.<br>
-**Objetivos:** Escapar da fazenda. <br>
+mover, interagir e coletar informações.<br><br>
+**Objetivos:** Escapar da fazenda. <br><br>
 **História:**
 O protagonista acorda em uma fazenda abandonada, acorrentado a uma parede, sem se lembrar
 de como chegou ali. Aos poucos, encontra puzzles espalhados pelo local e começa a resolvê-los
