@@ -1,23 +1,47 @@
 a) Criar uma história para o jogo.<br>
+O protagonista acorda em uma fazenda abandonada, acorrentado a uma parede, sem se lembrar de como chegou ali. Aos poucos, encontra puzzles espalhados pelo local e começa a resolvê-los para escapar. Conforme avança, ele descobre seu verdadeiro motivo de estar preso ali e a conexão entre seu passado e aquele lugar.
+
 b) Definir quais os personagens que farão parte do jogo: Um herói, uma nave espacial,
 inimigos, tartarugas, encanadores ...<br>
+
+Protagonista: Uma pessoa sem memória, o explorador que aos poucos vai recuperando sua identidade.
+
+Fazendeiro (o próprio protagonista): É relevado apenas no final que o protagonista é o próprio fazendeiro, cometeu muitos erros como acidentes fatais e tem um caráter controverso.
+
 c) Como irá funcionar a atitude lusória do seu jogo?<br>
+A atitude lusória está relacionada com a curiosidade do jogador em desvendar o mistério da fazenda. Conforme o jogador avança com os puzzles o jogo libera partes da história.
+
 d) Como você idealiza o estado de desafio do seu jogo? (Fluxo - pense na evolução
 dos níveis do seu jogo)<br>
+No início os puzzles são mais simples, focando em observação e interação com os objetos, com o avanço do jogador, os desafios ficam mais complexos, com raciocínio lógico e detalhes espalhados pelo do cenário. Assim criando um senso de evolução.
+
+
 e) Quais os elementos de atenção e envolvimento do seu jogo?<br>
-– Atenção – Interesse imediato que pode ser agarrado.<br>
-– Envolvimento – Interesse de longo prazo que deve ser mantido.<br>
+O jogo tem uma hisória que envolve e instiga o jogador, colocando revelações chocantes para que o jogador sinta interesse em continuar resolvendo os puzzles e é recompensado por cada resolução.
+
+
 f) Que tipo de experiência você quer dar para o seu jogador?<br>
+Queremos criar uma experiência revaladora e que cause reflexão e surpresa ao jogador, isso alcançaremos instigando e envolvendo o jogador no mistério para que ele queira saber o próximo passo da história.
+
 g) Explore as respostas emocionais desejáveis evocadas no jogador quando ele interage
 com o sistema do seu jogo.<br>
+- Curiosidade: no início do jogo o jogador se sentirá curioso com a história.
+- Reflexão sobre os atos do fazendeiro.
+- Surpresa ao descobrir que o protagonista é o próprio fazendeiro.
+
 Determine os seguintes pontos:<br>
 a) Premissa<br>
 – Qual o plano de fundo do seu jogo?<br>
+Uma fazenda abandonada cheia de mistérios do passado.
+
 – Que história deve ser contada antes do jogador assumir o controle?<br>
+Um fazendeiro acaba morrendo na própria fazenda e o jogador precisa resolver os puzzles para descobrir o que de fato aconteceu e quem ele era e porque acordou ali.
+
+
 b) Personagem<br>
-– Qual o plano de fundo do(s) seu(s) personagem(s)?<br>
-– Quais as características mais importantes para serem adicionadas no(s) perso-
-nagem(s)?<br>
+- Protagonista: Alguém que acordou sem memórias, é calado e observador.
+- Fazendeiro: Sem caráter, competitivo, dono da fazenda.
+
 c) Historia<br>
 Uma pessoa acordou dentro de um celeiro de uma fazenda. Ao explorar o
 local, descobriu que precisa resolver diversos puzzles para poder sair daquele lugar.
@@ -50,10 +74,17 @@ superior do mapa. Nela será possível colocar os fusíveis que foram conquistad
 resolvendo os puzzles para abrir a porta. Quando ele vai sair da casa, ele acaba
 descobrindo que tudo é muito familiar, assim, assimilando que ele era o dono da
 fazenda.<br>
+
 d) Sentidos<br>
 – Quais os sentidos dos jogadores você gostaria de explorar no seu jogo?<br>
 – O jogo vai ter elementos visuais, sonoros, táteis, degustativos, olfativos?<br>
 Como esses elementos são apresentados para o jogador?<br>
+Visuais: ambientação sombria e escura para criar o clima misterioso da fazenda.
+Sonoros: sons característicos de fazenda e musica misteriosa, deixando o jogador ter uma experiência mais imersiva.
+
+
 Guiando o Jogador:<br>
 a) Quais os elementos de orientação direta?<br>
+No inicio do jogo será exibido um tutorial de como se movimentar e interagir com os objetos, usando setinhas e enter parar selecionar opções.
 b) Quais os elementos de orientação indireta?<br>
+Conforme o jogador avança parte do cenário é liberada indicando onde está o próximo puzzle.
