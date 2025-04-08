@@ -31,7 +31,7 @@
 - **Descrição:** Cenário do jogo, define toda a ambientação do momento.
 - **Quando é utilizada:** Durante a exploração da fazenda, quando não está dentro dos puzzles.
 - **Componentes:**
-  - **Sprites:** tileset ground, tileset road, tileset rock, tileset water
+  - **Sprites:** tileset ground, tileset water, tileset road, tileset rock
       - Groud <br>
         ![Tileset_Ground](https://github.com/user-attachments/assets/8535d754-b699-42d4-aea7-9387c093709c) <br>
       - Water <br>
