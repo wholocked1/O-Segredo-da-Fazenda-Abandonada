@@ -1,19 +1,32 @@
-## Loop principal
-- Verificação da orientação do sprite do jogador
-- Verificação de contato com itens de interesse
-- Verificação de input dos botões de inventário e interação
-- Verificação de mapa atual (mapa interno e externo)
-
-## Atores e seus componentes
-- **Atores**
-  - Personagem principal (sprite que o player controla)
-- **Componentes**
-  - **Itens colecionáveis**: itens que podem ser coletados pelos players para poder usar durante o jogo para resolver os puzzles (Sacos de sementes, engrenagens etc)
-  - **Puzzles**: lugares que tem enigmas que devem ser resolvidos pelos players para poder ganhar a recompensa dos puzzles (silos internos que devem ser sortidos, engrenagens que devem ser colocados no local correto para poder ligar um sistema etc)
-  - **Itens chaves**: itens que serão coletados para serem usados para sair do local (fusíveis)
-## Sprites
-- Player: <br>
-  ![Character_Idle](https://github.com/user-attachments/assets/add0d2c2-c821-4f4a-bfdb-ed381702c15c)<br>
-(Sprite sheet idle do personagem principal)<br>
-## Background
-Foi encontrado um tile set que será usado para construir o mapa do jogo.
+## Mecânica
+### Apresente os elementos formais do jogo
+#### Qual o padrão de interação do jogador?
+O jogador vê a cena em terceira pessoa, se movimentando pela fazenda, para interagir com os objetos ele pode clicar neles estando perto dos itens.
+#### Qual o objetivo do jogo?
+Resolver os puzzles e descobrir o mistério conforme avançam
+#### Quando o jogador ganha?
+Ao resolver todos os puzzles e obter os quatro fuzíveis, fazendo isso ele desbloqueia a cena final do mistério.
+#### Quando o jogador perde?
+O jogador tem o progresso interrompido caso não consiga avançar com os puzzles mas não temos uma derrota.
+#### Quais são as regrsas do jogo?
+- O jogador só pode acessar novas áreas se resolver os puzzles anteriores.
+- Cada item só pode ser usado em um local e momento específico
+- Se o jogador não tiver resolvido os puzzles não conseguirá ter acesso a história.
+#### Quais são os procedimentos do jogo?
+- Exploração da fazenda
+- Coletar objetos
+- Resolver puzzles
+- Avançar para novas áreas.
+#### Quais os recursos do jogo?
+- Itens interativos e colecionáveis
+- 4 puzzles
+- Cenário misterioso
+- fuzíveis que serão utilizados no final do jogo.
+#### Quais os limites do jogo?
+O jogo limita a ambientação bloqueando o acesso à novas áreas sem a resolução do puzzle atual.
+#### Quais os resultados do jogo?
+cada puzzle desbloqueia um fuzível que juntando 4 deles desbloquearão a verdade final.
+#### Como ele termina depois da vitoria
+O jogo termina com o protagonista descobrindo a sua identidade.
+#### Como ele termina depois da derrota
+Não aplicável.
