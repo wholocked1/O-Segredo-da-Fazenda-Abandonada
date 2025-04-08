@@ -28,7 +28,7 @@
 
 ### Background
 
-- **Descrição:** Protagonista controlado pelo jogador
+- **Descrição:** Cenário do jogo, define toda a ambientação do momento.
 - **Quando é utilizada:** Durante a exploração da fazenda, quando não está dentro dos puzzles.
 - **Componentes:**
   - **Sprites:** tileset ground, tileset road, tileset rock, tileset water
