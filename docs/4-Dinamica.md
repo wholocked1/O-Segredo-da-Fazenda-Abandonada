@@ -18,8 +18,8 @@
     - As decisões fazem parte do ambiente e da lógica do jogo, como escolher qual área explorar primeiro ou como usar um item encontrado para resolver um puzzle.  
 - **Ambíguo:**  
     - Em certos momentos, o jogador pode não saber exatamente qual é o próximo passo, o que cria uma tensão interessante e impulsiona a exploração.  
-- **Dois gumes:**  
-    - Algumas escolhas podem parecer corretas, mas levam o jogador a desafios extras ou consequências inesperadas, como gastar tempo resolvendo um puzzle opcional que não leva diretamente à saída.  
+- **Novela:**  
+    - A decisão é suficientemente diferente de outras decisões que o jogador tomou recentemente, trazendo uma mudança de ritmo ou abordagem que quebra a previsibilidade e enriquece a experiência.  
 
 **Onde e como eles acontecem:**  
 - Acontecem durante a exploração da fazenda, ao decidir em qual ambiente entrar, qual puzzle focar primeiro ou quais itens usar ou guardar.  
