@@ -31,7 +31,7 @@
 - **Descrição:** Cenário do jogo, define toda a ambientação do momento.
 - **Quando é utilizada:** Durante a exploração da fazenda, quando não está dentro dos puzzles.
 - **Componentes:**
-  - **Sprites:** tileset ground, tileset water, tileset road, tileset rock
+  - **Sprites:** tileset ground, tileset water, tileset road, tileset rock, buildings.
       - Groud <br>
         ![Tileset_Ground](https://github.com/user-attachments/assets/8535d754-b699-42d4-aea7-9387c093709c) <br>
       - Water <br>
@@ -40,7 +40,11 @@
         ![Tileset_Road](https://github.com/user-attachments/assets/356d78a1-6c95-427e-b971-e462ef0c52b4) <br>
       - Rock <br>
         ![Tileset_RockSlope](https://github.com/user-attachments/assets/0bb0a0fd-5ec4-4941-96ce-3399a8d52760) <br>
+      - Buildings <br>
+        ![Buildings](https://github.com/user-attachments/assets/bedc55a1-acf5-4617-86b7-84b860e075a6) <br>
   - **Colisor:** `None`
   - **Fonte de Áudio:** `None`
   - **Scripts:**
     - `ParallaxController.cs`: Efeito de paralaxe para dar profundidade no cenário.
+
+---
