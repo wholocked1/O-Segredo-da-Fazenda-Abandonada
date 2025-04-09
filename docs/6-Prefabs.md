@@ -47,6 +47,10 @@
         url do trator <br>
       - Moinho <br>
         url do moinho <br>
+      - Colecionáveis<br>
+        ![Engrenagem](https://github.com/user-attachments/assets/d8405afe-49af-4a8a-948f-da2b11cae856) <br>
+        ![Chaves](https://github.com/user-attachments/assets/0fa03992-177f-4700-b29d-a919ea4ab9f1)
+        
   - **Colisor:** `None`
   - **Fonte de Áudio:** `None`
   - **Scripts:**
