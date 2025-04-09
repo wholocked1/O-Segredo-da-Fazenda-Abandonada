@@ -11,7 +11,7 @@
 - **Colisor**: ``
 - **Fonte de Áudio:** `pickup.mp3`
 - **Scripts:**
-    - ``:
+    - `ItensController.cs`: Coleta e contagem dos itens.
 ---
 
 ### Personagem Principal
