@@ -8,7 +8,7 @@
         ![Engrenagem](https://github.com/user-attachments/assets/d8405afe-49af-4a8a-948f-da2b11cae856) <br>
     - Chaves <br>
         ![Chaves](https://github.com/user-attachments/assets/0fa03992-177f-4700-b29d-a919ea4ab9f1) <br>
-- **Colisor**: ``
+- **Colisor**: `None`
 - **Fonte de Áudio:** `pickup.mp3`
 - **Scripts:**
     - `ItensController.cs`: Coleta e contagem dos itens.
@@ -19,13 +19,11 @@
 - **Descrição:** Protagonista controlado pelo jogador
 - **Quando é utilizada:** Durante a exploração da fazenda.
 - **Componentes:**
-  - **Sprites:** idle, walk, slash
+  - **Sprites:** idle, walk
       - Idle <br>
         ![Character_Idle](https://github.com/user-attachments/assets/d2beea12-59fe-483c-8348-beed7e19be69) <br>
       - Walk <br>
         ![Character_Walk](https://github.com/user-attachments/assets/80025853-65c5-49cd-95a0-2bf28b0b3633) <br>
-      - Slash <br>
-        ![Character_Slash](https://github.com/user-attachments/assets/be6d1f70-341e-4c83-82fc-55511e6a287d) <br>
 
   - **Colisor:** `BoxCollider2D`
   - **Fonte de Áudio:** `stepsSound.mp3`
@@ -61,10 +59,9 @@
         ![Tileset_Road](https://github.com/user-attachments/assets/356d78a1-6c95-427e-b971-e462ef0c52b4) <br>
       - Rock <br>
         ![Tileset_RockSlope](https://github.com/user-attachments/assets/0bb0a0fd-5ec4-4941-96ce-3399a8d52760) <br>
-      - Trator <br>
-        url <br>
-      - Moinho <br>
-        url <br>
+      - Trator e Moinho <br>
+        ![sprite trator e moinho (2)](https://github.com/user-attachments/assets/3ca4018f-33d6-44bd-bc8c-ff065fa6a143) <br>
+
   - **Colisor:** `None`
   - **Fonte de Áudio:** `None`
   - **Scripts:**
