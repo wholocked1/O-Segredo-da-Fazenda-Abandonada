@@ -1,7 +1,8 @@
 ## Prefabs
-- **Itens coletáveis**:
-  - Esses itens podem ser feitos para poder ajustar mais facilmente os itens de acordo com a configuração necessária, por exemplo:
-    - Configuração de tag ("item colecionável")
+### **Itens coletáveis**:
+- **Descrição:** 
+  - Esses itens podem ser feitos para poder ajustar mais facilmente de acordo com a configuração necessária, por exemplo:
+    - Configuração de tag ("item coletável")
     - Configuração de contato (para poder realizar o contato para o player ter no inventário)
 
 ---
@@ -42,6 +43,10 @@
         ![Tileset_RockSlope](https://github.com/user-attachments/assets/0bb0a0fd-5ec4-4941-96ce-3399a8d52760) <br>
       - Buildings <br>
         ![Buildings](https://github.com/user-attachments/assets/bedc55a1-acf5-4617-86b7-84b860e075a6) <br>
+      - Trator <br>
+        url do trator <br>
+      - Moinho <br>
+        url do moinho <br>
   - **Colisor:** `None`
   - **Fonte de Áudio:** `None`
   - **Scripts:**
