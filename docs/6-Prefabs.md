@@ -1,10 +1,17 @@
 ## Prefabs
-### **Itens coletáveis**:
+### **Itens coletáveis**
 - **Descrição:** 
-  - Esses itens podem ser feitos para poder ajustar mais facilmente de acordo com a configuração necessária, por exemplo:
-    - Configuração de tag ("item coletável")
-    - Configuração de contato (para poder realizar o contato para o player ter no inventário)
-
+  - Itens utilizados para interação do jogador.
+  - **Quando é utilizada:** Durante a interação.
+- **Sprites:** engranagem, chaves
+    - Engrenagem <br>
+        ![Engrenagem](https://github.com/user-attachments/assets/d8405afe-49af-4a8a-948f-da2b11cae856) <br>
+    - Chaves <br>
+        ![Chaves](https://github.com/user-attachments/assets/0fa03992-177f-4700-b29d-a919ea4ab9f1) <br>
+- **Colisor**: ``
+- **Fonte de Áudio:** `pickup.mp3`
+- **Scripts:**
+    - ``:
 ---
 
 ### Personagem Principal
@@ -21,7 +28,7 @@
         ![Character_Slash](https://github.com/user-attachments/assets/be6d1f70-341e-4c83-82fc-55511e6a287d) <br>
 
   - **Colisor:** `BoxCollider2D`
-  - **Fonte de Áudio:** ``
+  - **Fonte de Áudio:** `stepsSound.mp3`
   - **Scripts:**
     - `PlayerController.cs`: Movimentação, interação, coleta.
 
@@ -47,9 +54,6 @@
         url do trator <br>
       - Moinho <br>
         url do moinho <br>
-      - Colecionáveis<br>
-        ![Engrenagem](https://github.com/user-attachments/assets/d8405afe-49af-4a8a-948f-da2b11cae856) <br>
-        ![Chaves](https://github.com/user-attachments/assets/0fa03992-177f-4700-b29d-a919ea4ab9f1)
         
   - **Colisor:** `None`
   - **Fonte de Áudio:** `None`
