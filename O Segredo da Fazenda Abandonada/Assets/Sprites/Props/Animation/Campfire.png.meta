@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: 96e4d25763bcc9447914b1f2a3b15dc0
+guid: b83cfa0b0b3b47b4ab0368a8abc21ae9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3971268304706532072
-    second: Tileset_Water_0
+      213: -3591475534189650280
+    second: Campfire_0
   - first:
-      213: 7687101165838662448
-    second: Tileset_Water_1
+      213: -4704261264892754323
+    second: Campfire_1
   - first:
-      213: 6173851344155280916
-    second: Tileset_Water_2
+      213: -324634693526516157
+    second: Campfire_2
   - first:
-      213: -3084822969857752293
-    second: Tileset_Water_3
+      213: 7039333144802297169
+    second: Campfire_3
   - first:
-      213: -1467790663330388416
-    second: Tileset_Water_4
+      213: -4304248787414823906
+    second: Campfire_4
   - first:
-      213: -3916269048382775741
-    second: Tileset_Water_5
+      213: -1778526069974996526
+    second: Campfire_5
+  - first:
+      213: -4089948370776621432
+    second: Campfire_6
+  - first:
+      213: -9127053622863060257
+    second: Campfire_7
+  - first:
+      213: -1921332755387622409
+    second: Campfire_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,55 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tileset_Water_0
+      name: Campfire_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 63
-        width: 384
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e2fcc18b77cc1730800000000000000
-      internalID: 3971268304706532072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_Water_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1
-        width: 384
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03bfd4648c11eaa60800000000000000
-      internalID: 7687101165838662448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_Water_2
-      rect:
-        serializedVersion: 2
-        x: 2
         y: 0
-        width: 28
-        height: 15
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4168178461deda550800000000000000
-      internalID: 6173851344155280916
+      spriteID: 89e9e15b704882ec0800000000000000
+      internalID: -3591475534189650280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Water_3
+      name: Campfire_1
       rect:
         serializedVersion: 2
-        x: 98
+        x: 32
         y: 0
-        width: 28
-        height: 15
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b13c9ae5ad18035d0800000000000000
-      internalID: -3084822969857752293
+      spriteID: d660077cd4b17beb0800000000000000
+      internalID: -4704261264892754323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Water_4
+      name: Campfire_2
       rect:
         serializedVersion: 2
-        x: 194
+        x: 64
         y: 0
-        width: 28
-        height: 15
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 046ae8b1b2c51abe0800000000000000
-      internalID: -1467790663330388416
+      spriteID: 34e859a577aae7bf0800000000000000
+      internalID: -324634693526516157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Water_5
+      name: Campfire_3
       rect:
         serializedVersion: 2
-        x: 290
+        x: 96
         y: 0
-        width: 28
-        height: 15
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,8 +201,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34e994ebc0e96a9c0800000000000000
-      internalID: -3916269048382775741
+      spriteID: 155039ff23cb0b160800000000000000
+      internalID: 7039333144802297169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ccb31688c3444c0800000000000000
+      internalID: -4304248787414823906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d96e5f56f76157e0800000000000000
+      internalID: -1778526069974996526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88efb2250a59d37c0800000000000000
+      internalID: -4089948370776621432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd22e435611365180800000000000000
+      internalID: -9127053622863060257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb5cc3e90e0655e0800000000000000
+      internalID: -1921332755387622409
       vertices: []
       indices: 
       edges: []
@@ -251,12 +323,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tileset_Water_0: 3971268304706532072
-      Tileset_Water_1: 7687101165838662448
-      Tileset_Water_2: 6173851344155280916
-      Tileset_Water_3: -3084822969857752293
-      Tileset_Water_4: -1467790663330388416
-      Tileset_Water_5: -3916269048382775741
+      Campfire_0: -3591475534189650280
+      Campfire_1: -4704261264892754323
+      Campfire_2: -324634693526516157
+      Campfire_3: 7039333144802297169
+      Campfire_4: -4304248787414823906
+      Campfire_5: -1778526069974996526
+      Campfire_6: -4089948370776621432
+      Campfire_7: -9127053622863060257
+      Campfire_8: -1921332755387622409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
