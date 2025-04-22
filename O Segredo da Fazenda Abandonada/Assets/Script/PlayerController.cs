@@ -34,32 +34,56 @@ public class PlayerController : MonoBehaviour
         MoveY = Input.GetAxisRaw("Vertical");
         // Aqui definimos a velocidade do personagem na direção que ele está indo em X e Y
         rb.velocity = new Vector2(MoveX * speed, rb.velocity.y);
-        rb.velocity = new Vector2(rb.velocity.x, MoveY * speed); 
+        rb.velocity = new Vector2(rb.velocity.x, MoveY * speed);
 
-        //if (MoveX == 0 && MoveY == 0)
-        //{
-        //    // Aqui definimos a animação do personagem quando ele não está se movendo
-        //    animator.SetBool("isWalkingRight", false);
-        //    animator.SetBool("isWalkingLeft", false);
-        //    animator.SetBool("isWalkingUp", false);
-        //    animator.SetBool("isWalkingDown", false);
-        //    if (isFacingRight)
-        //    {
-        //        animator.SetBool("isIdleRight", true);
-        //    }
-        //    else if (isFacingLeft)
-        //    {
-        //        animator.SetBool("isIdleLeft", true);
-        //    }
-        //    else if (isFacingUp)
-        //    {
-        //        animator.SetBool("isIdleUp", true);
-        //    }
-        //    else if (isFacingDown)
-        //    {
-        //        animator.SetBool("isIdleDown", true);
-        //    }
-        //}
+        if (MoveX == 0 && MoveY == 0)
+        {
+            // Aqui definimos a animação do personagem quando ele não está se movendo
+            animator.SetBool("isWalkingRight", false);
+            animator.SetBool("isWalkingLeft", false);
+            animator.SetBool("isWalkingUp", false);
+            animator.SetBool("isWalkingDown", false);
+            if (isFacingRight)
+            {
+                animator.SetBool("isIdleFacingRight", true);
+                animator.SetBool("isIdleFacingLeft", false);
+                animator.SetBool("isIdleFacingUp", false);
+                animator.SetBool("isIdleFacingDown", false);
+            }
+            else if (isFacingLeft)
+            {
+                animator.SetBool("isIdleFacingLeft", true);
+                animator.SetBool("isIdleFacingUp", false);
+                animator.SetBool("isIdleFacingRight", false);
+                animator.SetBool("isIdleFacingDown", false);
+            }
+            else if (isFacingUp)
+            {
+                animator.SetBool("isIdleFacingUp", true);
+                animator.SetBool("isIdleFacingDown", false);
+                animator.SetBool("isIdleFacingLeft", false);
+                animator.SetBool("isIdleFacingRight", false);
+            }
+            else if (isFacingDown)
+            {               
+                animator.SetBool("isIdleFacingDown", true);
+                animator.SetBool("isIdleFacingUp", false);
+                animator.SetBool("isIdleFacingLeft", false);
+                animator.SetBool("isIdleFacingRight", false);
+            }
+        }
+        else
+        {
+            // Aqui definimos a animação do personagem quando ele está se movendo
+            isFacingUp = false;
+            isFacingDown = false;
+            isFacingRight = false;
+            isFacingLeft = false;
+            animator.SetBool("isIdleFacingRight", false);
+            animator.SetBool("isIdleFacingLeft", false);
+            animator.SetBool("isIdleFacingUp", false);
+            animator.SetBool("isIdleFacingDown", false);
+        }
         if (MoveY > 0)
         {
             // Aqui definimos a animação do personagem quando ele se move para cima
