@@ -322,7 +322,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fence_remix_0: 7361405553803895140
+      fence_remix_1: -2104106901572759504
+      fence_remix_2: 8968125978383980693
+      fence_remix_3: 4598295945460871546
+      fence_remix_4: 1187522634226011599
+      fence_remix_5: 923503959192013672
+      fence_remix_6: 523983249269914142
+      fence_remix_7: -2504384802522372971
+      fence_remix_8: 1474697489600627394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,40 @@
+Yes, in Unity using the Universal Render Pipeline (URP), you can absolutely turn lights on or off through code!
+
+Here's a simple example of how to do that in C#:
+
+```csharp
+using UnityEngine;
+
+public class LightController : MonoBehaviour
+{
+    public Light myLight; // Assign this in the Inspector
+
+    void Start()
+    {
+        // Turn the light off at the start
+        myLight.enabled = false;
+    }
+
+    public void TurnOnLight()
+    {
+        myLight.enabled = true;
+    }
+
+    public void TurnOffLight()
+    {
+        myLight.enabled = false;
+    }
+
+    public void ToggleLight()
+    {
+        myLight.enabled = !myLight.enabled;
+    }
+}
+```
+
+### Notes:
+- This works for **any standard Unity `Light` component**, including directional, point, spot, and area lights.
+- URP doesn’t change how lights are toggled in code — the lighting system uses the same `Light` component.
+- You can also use `SetActive(false)` on the whole GameObject, but that disables the whole object, not just the light.
+
+Let me know if you want to control it with a button press or trigger or something!
