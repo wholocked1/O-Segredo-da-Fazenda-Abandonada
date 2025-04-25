@@ -5,13 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
-    // Aqui fazemos a movimentação do personagem
+    // Aqui fazemos a movimentaï¿½ï¿½o do personagem
     private float MoveX;
     private float MoveY;
     // Aqui definimos a velocidade do personagem
     private float speed = 5f;
 
-    //Aqui  definimos a direção em que o personagem está indo
+    //Aqui  definimos a direï¿½ï¿½o em que o personagem estï¿½ indo
     private bool isFacingRight;
     private bool isFacingUp;
     private bool isFacingLeft;
@@ -29,16 +29,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Aqui definimos a movimentação do personagem
+        // Aqui definimos a movimentaï¿½ï¿½o do personagem
         MoveX = Input.GetAxisRaw("Horizontal");
         MoveY = Input.GetAxisRaw("Vertical");
-        // Aqui definimos a velocidade do personagem na direção que ele está indo em X e Y
+        // Aqui definimos a velocidade do personagem na direï¿½ï¿½o que ele estï¿½ indo em X e Y
         rb.velocity = new Vector2(MoveX * speed, rb.velocity.y);
         rb.velocity = new Vector2(rb.velocity.x, MoveY * speed);
 
         if (MoveX == 0 && MoveY == 0)
         {
-            // Aqui definimos a animação do personagem quando ele não está se movendo
+            // Aqui definimos a animaï¿½ï¿½o do personagem quando ele nï¿½o estï¿½ se movendo
             animator.SetBool("isWalkingRight", false);
             animator.SetBool("isWalkingLeft", false);
             animator.SetBool("isWalkingUp", false);
@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            // Aqui definimos a animação do personagem quando ele está se movendo
+            // Aqui definimos a animaï¿½ï¿½o do personagem quando ele estï¿½ se movendo
             isFacingUp = false;
             isFacingDown = false;
             isFacingRight = false;
@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
         }
         if (MoveY > 0)
         {
-            // Aqui definimos a animação do personagem quando ele se move para cima
+            // Aqui definimos a animaï¿½ï¿½o do personagem quando ele se move para cima
             isFacingUp = true;
             isFacingDown = false;
             isFacingRight = false;
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (MoveY < 0)
         {
-            // Aqui definimos a animação do personagem quando ele se move para baixo
+            // Aqui definimos a animaï¿½ï¿½o do personagem quando ele se move para baixo
             isFacingUp = false;
             isFacingDown = true;
             isFacingRight = false;
@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (MoveX > 0)
         {
-            // Aqui definimos a animação do personagem quando ele se move para a direita
+            // Aqui definimos a animaï¿½ï¿½o do personagem quando ele se move para a direita
             isFacingUp = false;
             isFacingDown = false;
             isFacingRight = true;
@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (MoveX < 0)
         {
-            // Aqui definimos a animação do personagem quando ele se move para a esquerda
+            // Aqui definimos a animaï¿½ï¿½o do personagem quando ele se move para a esquerda
             isFacingUp = false;
             isFacingDown = false;
             isFacingRight = false;
@@ -132,5 +132,11 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isWalkingUp", false);
             animator.SetBool("isWalkingDown", false);
         }
+    }
+    void OnTriggerEnter2D(Collider2D collision) {
+        if(collision.tag == "Espantalho"){
+            Debug.Log("foi");
+        }
+        
     }
 }
