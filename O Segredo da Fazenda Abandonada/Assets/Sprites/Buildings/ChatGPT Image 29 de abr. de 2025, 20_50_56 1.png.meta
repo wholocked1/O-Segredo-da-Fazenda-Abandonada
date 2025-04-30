@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ab90787769e206946a285e6e5a48c21d
+guid: ff630cbb79be4d94b9206348523165df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2775936734923251925
-    second: ScareCrow_0
+      213: 6689661556859046027
+    second: ChatGPT Image 29 de abr. de 2025, 20_50_56 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ScareCrow_0
+      name: ChatGPT Image 29 de abr. de 2025, 20_50_56 1_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 14
-        width: 28
-        height: 37
+        x: 143
+        y: 94
+        width: 717
+        height: 868
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d0ee0cb0cb168620800000000000000
-      internalID: 2775936734923251925
+      spriteID: b888b2c1eb376dc50800000000000000
+      internalID: 6689661556859046027
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ScareCrow_0: 2775936734923251925
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
