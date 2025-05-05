@@ -6,8 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     // Aqui fazemos a movimenta��o do personagem
-    private float MoveX;
-    private float MoveY;
+    private Vector2 moveInput;
     // Aqui definimos a velocidade do personagem
     private float speed = 5f;
 
@@ -30,13 +29,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Aqui definimos a movimenta��o do personagem
-        MoveX = Input.GetAxisRaw("Horizontal");
-        MoveY = Input.GetAxisRaw("Vertical");
-        // Aqui definimos a velocidade do personagem na dire��o que ele est� indo em X e Y
-        rb.velocity = new Vector2(MoveX * speed, rb.velocity.y);
-        rb.velocity = new Vector2(rb.velocity.x, MoveY * speed);
+        moveInput.x = Input.GetAxisRaw("Horizontal");
+        moveInput.y = Input.GetAxisRaw("Vertical");
+        moveInput.Normalize();
 
-        if (MoveX == 0 && MoveY == 0)
+        if (moveInput.x == 0 && moveInput.y == 0)
         {
             // Aqui definimos a anima��o do personagem quando ele n�o est� se movendo
             animator.SetBool("isWalkingRight", false);
@@ -84,7 +81,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isIdleFacingUp", false);
             animator.SetBool("isIdleFacingDown", false);
         }
-        if (MoveY > 0)
+        if (moveInput.y > 0)
         {
             // Aqui definimos a anima��o do personagem quando ele se move para cima
             isFacingUp = true;
@@ -96,7 +93,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isWalkingLeft", false);
             animator.SetBool("isWalkingRight", false);
         }
-        else if (MoveY < 0)
+        else if (moveInput.y < 0)
         {
             // Aqui definimos a anima��o do personagem quando ele se move para baixo
             isFacingUp = false;
@@ -108,7 +105,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isWalkingRight", false);
             animator.SetBool("isWalkingLeft", false);
         }
-        else if (MoveX > 0)
+        else if (moveInput.x > 0)
         {
             // Aqui definimos a anima��o do personagem quando ele se move para a direita
             isFacingUp = false;
@@ -120,7 +117,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isWalkingUp", false);
             animator.SetBool("isWalkingDown", false);
         }
-        else if (MoveX < 0)
+        else if (moveInput.x < 0)
         {
             // Aqui definimos a anima��o do personagem quando ele se move para a esquerda
             isFacingUp = false;
@@ -133,10 +130,19 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isWalkingDown", false);
         }
     }
+    void FixedUpdate()
+    {
+        // Calcula a nova posição do personagem
+        rb.velocity = moveInput * speed;
+    }
     void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Espantalho"){
             Debug.Log("foi");
         }
-        
+        else if (collision.tag == "wall")
+        {
+            Debug.Log("foi");
+        }
+
     }
 }
