@@ -43,6 +43,22 @@ public class ControledeInventario : MonoBehaviour
 
     }
 
+    public bool AdicionaItem(GameObject item)
+    {
+        foreach(Transform slotTransform in inventario.transform)
+        {
+            Slot slot = slotTransform.GetComponent<Slot>();
+            if (slot != null && slot.itemSlot == null)
+            {
+                GameObject novoItem = Instantiate(item, slotTransform);
+                novoItem.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+                slot.itemSlot = novoItem;
+                return true;
+            }
+        }
+        Debug.Log("Error");
+        return false;
+    }
     public List<InventorySaveData> GetitemsInventory()
     {
         List<InventorySaveData> inventorySaveDataList = new List<InventorySaveData>();

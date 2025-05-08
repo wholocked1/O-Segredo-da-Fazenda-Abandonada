@@ -5,4 +5,11 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public string id;
+    public bool foiColetado = false;
+
+    public void SetColetado(bool coletado)
+    {
+        foiColetado = coletado;
+    }
+
 }
