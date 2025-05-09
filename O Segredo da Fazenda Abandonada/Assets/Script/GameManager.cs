@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            LimpaDestroi();
             return;
         }
     }
@@ -32,5 +32,17 @@ public class GameManager : MonoBehaviour
                 DontDestroyOnLoad(objeto);
             }
         }
+    }
+
+    private void LimpaDestroi()
+    {
+        foreach (GameObject objeto in objetosPersistentes)
+        {
+            if (objeto != null)
+            {
+                Destroy(objeto);
+            }
+        }
+        Destroy(gameObject);
     }
 }
