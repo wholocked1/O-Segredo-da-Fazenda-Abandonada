@@ -15,10 +15,13 @@ public class Item : MonoBehaviour
 
     public void loadItem(ItemSaveData data)
     {
+        Debug.Log($"loadItem chamado para {id}, data.foiColetado = {data.foiColetado}");
         foiColetado = data.foiColetado;
+
         if (foiColetado)
         {
             gameObject.SetActive(false);
+            Debug.Log($"Item {id} foi desativado.");
         }
     }
 

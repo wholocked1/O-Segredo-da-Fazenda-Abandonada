@@ -9,6 +9,7 @@ public class Save : MonoBehaviour
     private string saveLocal;
     private ControledeInventario controledeInventario;
     private Item[] items;
+    private DadoSalvo dadoSalvoCarregado;
 
     void Awake()
     {
@@ -24,7 +25,8 @@ public class Save : MonoBehaviour
     {
         controledeInventario = ControledeInventario.Instance;
         saveLocal = Path.Combine(Application.persistentDataPath, "saveData.json");
-        items = FindObjectsOfType<Item>();
+        items = FindObjectsByType<Item>(FindObjectsSortMode.None); // Updated to use FindObjectsByType
+        Debug.Log("Itens encontrados: " + items.Length);
         Debug.Log("Save file path: " + saveLocal);
     }
 
@@ -60,11 +62,13 @@ public class Save : MonoBehaviour
         if (File.Exists(saveLocal))
         {
             string json = File.ReadAllText(saveLocal);
-            DadoSalvo dadoSalvo = JsonUtility.FromJson<DadoSalvo>(json);
-            SceneManager.LoadScene(dadoSalvo.ActiveScene);
-            GameObject.FindGameObjectWithTag("Player").transform.position = dadoSalvo.playerPosition;
-            controledeInventario.SetItemsInventory(dadoSalvo.inventorySaveData);
-            LoadStatusItems(dadoSalvo.itemSaveData);
+            dadoSalvoCarregado = JsonUtility.FromJson<DadoSalvo>(json);
+            SceneManager.LoadScene(dadoSalvoCarregado.ActiveScene);
+            GameObject.FindGameObjectWithTag("Player").transform.position = dadoSalvoCarregado.playerPosition;
+            controledeInventario.SetItemsInventory(dadoSalvoCarregado.inventorySaveData);
+            // Aguarda o carregamento da nova cena
+            SceneManager.sceneLoaded += OnSceneLoaded;
+            LoadStatusItems(dadoSalvoCarregado.itemSaveData);
         }
         else
         {
@@ -73,6 +77,7 @@ public class Save : MonoBehaviour
             {
                 item.SetColetado(false);
             }
+
             SaveGame();
         }
     }
@@ -85,13 +90,52 @@ public class Save : MonoBehaviour
             if (itemSaveData != null)
             {
                 item.SetColetado(itemSaveData.foiColetado);
+                Debug.Log("Item ID: " + item.id + " foiColetado: " + item.foiColetado);
                 item.loadItem(itemSaveData);
             }
             else
             {
+                Debug.Log("Não achou ninguem");
                 item.SetColetado(false);
-                Debug.LogWarning($"Item {item.id} não encontrado no save. Setando como não coletado.");
             }
         }
     }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+
+        // Recarrega componentes após a cena estar carregada
+        items = FindObjectsByType<Item>(FindObjectsSortMode.None);
+        controledeInventario = ControledeInventario.Instance;
+
+        if (dadoSalvoCarregado != null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                player.transform.position = dadoSalvoCarregado.playerPosition;
+            }
+            else
+            {
+                Debug.LogWarning("Player não encontrado após carregar a cena.");
+            }
+
+            if (controledeInventario != null)
+            {
+                controledeInventario.SetItemsInventory(dadoSalvoCarregado.inventorySaveData);
+            }
+            else
+            {
+                Debug.LogWarning("Controle de Inventário não foi encontrado após carregar a cena.");
+            }
+
+            LoadStatusItems(dadoSalvoCarregado.itemSaveData);
+        }
+        else
+        {
+            Debug.LogError("dadoSalvoCarregado está nulo!");
+        }
+    }
+
 }

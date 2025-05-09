@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Livro : MonoBehaviour
+public class Livro : MonoBehaviour, IInteracao
 {
-    // Start is called before the first frame update
-    void Start()
+    public Dialog Dialog;
+    public bool podeInteragir = true;
+
+    public void ReadBook()
     {
-        
+        DialogManager.instance.StartDialog(Dialog);
+    }
+    public void Interagir()
+    {
+        if (podeInteragir)
+        {
+            ReadBook();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool PodeInteragir()
     {
-        
+        return podeInteragir;
     }
+
 }
