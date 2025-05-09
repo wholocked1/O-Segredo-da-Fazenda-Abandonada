@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ControledeInventario : MonoBehaviour
 {
@@ -29,18 +30,7 @@ public class ControledeInventario : MonoBehaviour
     void Start()
     {
         dicionarioItems = DicionarioItems.Instance;
-        //for (int i = 0; i < slotsNumber; i++)
-        //{
-        //    Slot slot = Instantiate(slotPrefab, inventario.transform).GetComponent<Slot>();
-        //    if(i < items.Length)
-        //    {
-        //        GameObject item = Instantiate(items[i], slot.transform);
-        //        item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
-        //        slot.itemSlot = item;
-        //    }
-         
-        //}
-
+        VerificarCanvasCorreto();
     }
 
     public bool AdicionaItem(GameObject item)
@@ -102,6 +92,40 @@ public class ControledeInventario : MonoBehaviour
                     slot.itemSlot = item;
                 }
             }
+        }
+
+        Canvas.ForceUpdateCanvases();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(inventario.GetComponent<RectTransform>());
+
+        // Forçar o Canvas a atualizar e garantir que os slots apareçam
+        Canvas canvas = inventario.GetComponentInParent<Canvas>();
+        if (canvas != null)
+        {
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;  // Garantir que o Canvas seja renderizado corretamente
+        }
+    }
+
+    void VerificarCanvasCorreto()
+    {
+        Canvas[] canvases = FindObjectsOfType<Canvas>();
+        Canvas canvasCorreto = null;
+
+        foreach (Canvas canvas in canvases)
+        {
+            if (canvas.CompareTag("Inventario"))
+            {
+                canvasCorreto = canvas;
+                break;
+            }
+        }
+
+        if (canvasCorreto != null && inventario.transform.parent != canvasCorreto.transform)
+        {
+            inventario.transform.SetParent(canvasCorreto.transform, false);
+        }
+        else
+        {
+            Debug.LogWarning("Canvas com a tag 'UIPrincipal' não encontrado.");
         }
     }
 }
