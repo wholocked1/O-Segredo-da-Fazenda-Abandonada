@@ -11,5 +11,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenes/MainMap.unity
     guid: 72ce4fd2fd6b78f4e98b907b03dcd1da
+  - enabled: 1
+    path: Assets/Scenes/Scenes/CasadeMaquinas.unity
+    guid: f96a3620c88a5fc4294ebe2e521b8939
+  - enabled: 1
+    path: Assets/Scenes/Scenes/ArmazemSilos.unity
+    guid: c4e84f07c37de6443add9d90d81d5209
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Celeiro.unity
+    guid: 1f897e0b9685df1469beac8d47b8d4b7
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Estabulos.unity
+    guid: 6d406d37b24aa4840a0700d99c9a129f
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Mansion.unity
+    guid: 29b5877c0240ce04db44cebdc608f3d0
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Mansion2.unity
+    guid: a49474d7132c5f04ba23d55622d788fb
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Moinho.unity
+    guid: c7d3bc520351f964e8c2e48475d1ead3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

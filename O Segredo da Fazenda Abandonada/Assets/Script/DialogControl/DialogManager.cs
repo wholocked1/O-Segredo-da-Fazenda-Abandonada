@@ -48,11 +48,19 @@ public class DialogManager : MonoBehaviour
         string line = text.Dequeue();
         dialogText.text = line;
         Debug.Log(line);
+        StartCoroutine(DoAfterDelay(10f));
     }
     // Fecha o dialogo  
     void EndDialog()
     {
         animation.SetBool("isTalking", false);
         isTalking = false;
+    }
+
+    IEnumerator DoAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay); // Waits for 'delay' seconds
+        Debug.Log("2 seconds passed!");
+        // You can put any logic here
     }
 }
