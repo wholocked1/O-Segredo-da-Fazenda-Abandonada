@@ -10,7 +10,7 @@ public class ColetaItens : MonoBehaviour, IInteracao
     private Collider2D collider2D;
     void Start()
     {
-         controledeInventario = ControledeInventario.Instance;
+        controledeInventario = ControledeInventario.Instance;
         item = GetComponent<Item>(); // Obtém o componente Item do objeto
     }
     //public void Interagir()

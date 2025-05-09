@@ -22,7 +22,7 @@ public class Save : MonoBehaviour
         controledeInventario = ControledeInventario.Instance;
         saveLocal = Path.Combine(Application.persistentDataPath, "saveData.json");
         items = FindObjectsByType<Item>(FindObjectsSortMode.None); // Updated to use FindObjectsByType
-        //Debug.Log("Save file path: " + saveLocal);
+        Debug.Log("Save file path: " + saveLocal);
     }
 
     public void SaveGame()
@@ -76,6 +76,7 @@ public class Save : MonoBehaviour
             if (item != null)
             {
                 item.SetColetado(item.foiColetado);
+                item.loadItem(itemSaveData);
             }
         }
     }

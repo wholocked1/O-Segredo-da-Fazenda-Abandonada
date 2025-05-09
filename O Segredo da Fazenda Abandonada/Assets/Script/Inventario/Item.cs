@@ -12,4 +12,12 @@ public class Item : MonoBehaviour
         foiColetado = coletado;
     }
 
+    public void loadItem(ItemSaveData data)
+    {
+        if (data.foiColetado == true)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
 }

@@ -15,4 +15,5 @@ public class ItemSaveData
 {
     public string ID;
     public bool foiColetado;
+
 }
