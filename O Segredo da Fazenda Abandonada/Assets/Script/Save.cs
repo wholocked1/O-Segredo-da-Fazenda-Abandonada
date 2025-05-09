@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
@@ -10,10 +9,13 @@ public class Save : MonoBehaviour
     private ControledeInventario controledeInventario;
     private Item[] items;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         InicializarComponentes();
+    }
+
+    void Start()
+    {
         LoadGame();
     }
 
@@ -21,7 +23,7 @@ public class Save : MonoBehaviour
     {
         controledeInventario = ControledeInventario.Instance;
         saveLocal = Path.Combine(Application.persistentDataPath, "saveData.json");
-        items = FindObjectsByType<Item>(FindObjectsSortMode.None); // Updated to use FindObjectsByType
+        items = FindObjectsOfType<Item>();
         Debug.Log("Save file path: " + saveLocal);
     }
 
@@ -59,11 +61,15 @@ public class Save : MonoBehaviour
             DadoSalvo dadoSalvo = JsonUtility.FromJson<DadoSalvo>(json);
             GameObject.FindGameObjectWithTag("Player").transform.position = dadoSalvo.playerPosition;
             controledeInventario.SetItemsInventory(dadoSalvo.inventorySaveData);
-
             LoadStatusItems(dadoSalvo.itemSaveData);
         }
         else
         {
+            controledeInventario.SetItemsInventory(new List<InventorySaveData>());
+            foreach (Item item in items)
+            {
+                item.SetColetado(false);
+            }
             SaveGame();
         }
     }
@@ -73,10 +79,15 @@ public class Save : MonoBehaviour
         foreach (Item item in items)
         {
             ItemSaveData itemSaveData = itemSaveDatas.FirstOrDefault(i => i.ID == item.id);
-            if (item != null)
+            if (itemSaveData != null)
             {
-                item.SetColetado(item.foiColetado);
+                item.SetColetado(itemSaveData.foiColetado);
                 item.loadItem(itemSaveData);
+            }
+            else
+            {
+                item.SetColetado(false);
+                Debug.LogWarning($"Item {item.id} não encontrado no save. Setando como não coletado.");
             }
         }
     }
