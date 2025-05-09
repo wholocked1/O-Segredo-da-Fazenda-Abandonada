@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class Save : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class Save : MonoBehaviour
     {
         DadoSalvo dadoSalvo = new DadoSalvo
         {
+            ActiveScene = SceneManager.GetActiveScene().name,
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
             inventorySaveData = controledeInventario.GetitemsInventory(),
             itemSaveData = PegaStatusItems()
@@ -59,6 +61,7 @@ public class Save : MonoBehaviour
         {
             string json = File.ReadAllText(saveLocal);
             DadoSalvo dadoSalvo = JsonUtility.FromJson<DadoSalvo>(json);
+            SceneManager.LoadScene(dadoSalvo.ActiveScene);
             GameObject.FindGameObjectWithTag("Player").transform.position = dadoSalvo.playerPosition;
             controledeInventario.SetItemsInventory(dadoSalvo.inventorySaveData);
             LoadStatusItems(dadoSalvo.itemSaveData);

@@ -5,6 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class DadoSalvo
 {
+    public string ActiveScene;  
     public Vector3 playerPosition;
     public List<InventorySaveData> inventorySaveData;
     public List<ItemSaveData> itemSaveData;
