@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: "port\xE3o_19"
+  m_Name: moinho_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -180311876215040380, guid: 7015c357d677f6f46aaa4132040f7bcb, type: 3}
+  m_Sprite: {fileID: 7777899781663616239, guid: 447682d5a76ac6c4eba4a599d35598a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
