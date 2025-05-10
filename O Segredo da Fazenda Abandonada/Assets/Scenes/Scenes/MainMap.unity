@@ -187,8 +187,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.021900058, y: -0.007850051, z: 0}
-    m_Extent: {x: 3.0461001, y: 3.59055, z: 0}
+    m_Center: {x: 0.021800041, y: -0.008599997, z: 0}
+    m_Extent: {x: 3.0453, y: 3.5914, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1009,8 +1009,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.021200001, y: -0.009500027, z: 0}
-    m_Extent: {x: 0.5339, y: 0.5582, z: 0}
+    m_Center: {x: -0.021149993, y: -0.009949982, z: 0}
+    m_Extent: {x: 0.53405, y: 0.55745, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1180,8 +1180,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[1]'
+      value: "Primavera: Feij\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[2]'
-      value: 'Inverno: Soja'
+      value: 'Inverno: Soja.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[3]'
+      value: "Ver\xE3o: Milho."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[4]'
+      value: 'Outono: Trigo.'
       objectReference: {fileID: 0}
     - target: {fileID: 3523491643496368077, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1240,6 +1252,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[1]'
+      value: 'Primavera: Milho.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[2]'
+      value: 'Inverno: Trigo.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[3]'
+      value: "Ver\xE3o: Feij\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[4]'
+      value: 'Outono: Soja.'
+      objectReference: {fileID: 0}
     - target: {fileID: 3523491643496368077, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.43
@@ -2693,8 +2721,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.021049976, y: 1.9541001, z: 0}
-    m_Extent: {x: 4.51405, y: 5.2293, z: 0}
+    m_Center: {x: -0.020900011, y: 1.9530001, z: 0}
+    m_Extent: {x: 4.5139, y: 5.2293, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4241,6 +4269,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[1]'
+      value: 'Primavera: Trigo.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[2]'
+      value: "Inverno: Feij\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[3]'
+      value: "Ver\xE3o: Soja."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
+      propertyPath: 'Dialog.sentences.Array.data[4]'
+      value: 'Outono: Milho.'
+      objectReference: {fileID: 0}
     - target: {fileID: 3523491643496368077, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.90126
@@ -4860,8 +4904,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.19525003, y: -0.32660007, z: 0}
-    m_Extent: {x: 5.64515, y: 5.9571, z: 0}
+    m_Center: {x: 0.19449997, y: -0.3257501, z: 0}
+    m_Extent: {x: 5.6451, y: 5.9572496, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5161,8 +5205,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.015399933, y: 0.001150012, z: 0}
-    m_Extent: {x: 3.3831, y: 3.6472502, z: 0}
+    m_Center: {x: 0.016000032, y: 0.00065004826, z: 0}
+    m_Extent: {x: 3.3832, y: 3.64845, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -6587,8 +6631,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.009499997, y: -0.00075000525, z: 0}
-    m_Extent: {x: 0.8419, y: 0.61035, z: 0}
+    m_Center: {x: -0.009550005, y: -0.0012499988, z: 0}
+    m_Extent: {x: 0.84215, y: 0.60945, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
