@@ -187,8 +187,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.02125001, y: -0.008049965, z: 0}
-    m_Extent: {x: 3.04545, y: 3.59075, z: 0}
+    m_Center: {x: 0.021749973, y: -0.0073000193, z: 0}
+    m_Extent: {x: 3.04525, y: 3.5909, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1009,8 +1009,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.02035001, y: -0.009649992, z: 0}
-    m_Extent: {x: 0.53425, y: 0.55735, z: 0}
+    m_Center: {x: -0.020099998, y: -0.009450018, z: 0}
+    m_Extent: {x: 0.5336, y: 0.55745, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2199,7 +2199,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999976, y: -9.7016, z: -10}
+  m_LocalPosition: {x: 0.03999979, y: -9.7016, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2390,7 +2390,7 @@ Transform:
   m_GameObject: {fileID: 546711862}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: -9.83, z: 0}
+  m_LocalPosition: {x: 0.04, y: -9.83, z: -1}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2685,8 +2685,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.02120018, y: 1.9532502, z: 0}
-    m_Extent: {x: 4.513, y: 5.22915, z: 0}
+    m_Center: {x: -0.022000074, y: 1.9528501, z: 0}
+    m_Extent: {x: 4.5137997, y: 5.2295504, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4852,8 +4852,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.1954999, y: -0.32585, z: 0}
-    m_Extent: {x: 5.6457, y: 5.95745, z: 0}
+    m_Center: {x: 0.1949501, y: -0.32555008, z: 0}
+    m_Extent: {x: 5.64605, y: 5.95705, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5153,8 +5153,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.015100002, y: 0.00069999695, z: 0}
-    m_Extent: {x: 3.3834, y: 3.6486, z: 0}
+    m_Center: {x: 0.015500069, y: 0.00049996376, z: 0}
+    m_Extent: {x: 3.3829, y: 3.6475, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5478,7 +5478,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1415955578236420640, guid: f6db8d464694bf142b74daf49ab9b110, type: 3}
       propertyPath: sceneToLoad
-      value: Estabulo
+      value: Estabulos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415955578236420640, guid: f6db8d464694bf142b74daf49ab9b110, type: 3}
+      propertyPath: playerPosition.x
+      value: 8.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415955578236420640, guid: f6db8d464694bf142b74daf49ab9b110, type: 3}
+      propertyPath: playerPosition.y
+      value: -10.25
       objectReference: {fileID: 0}
     - target: {fileID: 7541170082089747743, guid: f6db8d464694bf142b74daf49ab9b110, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6571,8 +6579,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.009799987, y: -0.0011999905, z: 0}
-    m_Extent: {x: 0.8421, y: 0.60969996, z: 0}
+    m_Center: {x: -0.009900004, y: -0.0015999973, z: 0}
+    m_Extent: {x: 0.8421, y: 0.6098, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -7150,7 +7158,7 @@ Transform:
   m_GameObject: {fileID: 1936948769}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999976, y: -9.7016, z: -10}
+  m_LocalPosition: {x: 0.03999979, y: -9.7016, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
