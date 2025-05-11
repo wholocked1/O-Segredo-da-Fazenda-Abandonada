@@ -10,6 +10,7 @@ public class Save : MonoBehaviour
     private ControledeInventario controledeInventario;
     private Item[] items;
     private DadoSalvo dadoSalvoCarregado;
+    private Chest[] baus;
 
     void Awake()
     {
@@ -28,6 +29,7 @@ public class Save : MonoBehaviour
         items = FindObjectsByType<Item>(FindObjectsSortMode.None); // Updated to use FindObjectsByType
         Debug.Log("Itens encontrados: " + items.Length);
         Debug.Log("Save file path: " + saveLocal);
+        baus = FindObjectsOfType<Chest>();
     }
 
     public void SaveGame()
@@ -37,9 +39,14 @@ public class Save : MonoBehaviour
             ActiveScene = SceneManager.GetActiveScene().name,
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
             inventorySaveData = controledeInventario.GetitemsInventory(),
-            itemSaveData = PegaStatusItems()
+            itemSaveData = PegaStatusItems(),
+            chestSAveData = 
         };
         File.WriteAllText(saveLocal, JsonUtility.ToJson(dadoSalvo));
+    }
+
+    private List<Chest> PegaStatusBaus(){
+        
     }
 
     private List<ItemSaveData> PegaStatusItems()
@@ -95,7 +102,7 @@ public class Save : MonoBehaviour
             }
             else
             {
-                Debug.Log("Não achou ninguem");
+                Debug.Log("Nï¿½o achou ninguem");
                 item.SetColetado(false);
             }
         }
@@ -105,7 +112,7 @@ public class Save : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
 
-        // Recarrega componentes após a cena estar carregada
+        // Recarrega componentes apï¿½s a cena estar carregada
         items = FindObjectsByType<Item>(FindObjectsSortMode.None);
         controledeInventario = ControledeInventario.Instance;
 
@@ -118,7 +125,7 @@ public class Save : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning("Player não encontrado após carregar a cena.");
+                Debug.LogWarning("Player nï¿½o encontrado apï¿½s carregar a cena.");
             }
 
             if (controledeInventario != null)
@@ -127,14 +134,14 @@ public class Save : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning("Controle de Inventário não foi encontrado após carregar a cena.");
+                Debug.LogWarning("Controle de Inventï¿½rio nï¿½o foi encontrado apï¿½s carregar a cena.");
             }
 
             LoadStatusItems(dadoSalvoCarregado.itemSaveData);
         }
         else
         {
-            Debug.LogError("dadoSalvoCarregado está nulo!");
+            Debug.LogError("dadoSalvoCarregado estï¿½ nulo!");
         }
     }
 
