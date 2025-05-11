@@ -126,7 +126,7 @@ public class ControledeInventario : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Canvas com a tag 'Inventario' n�o encontrado.");
+            Debug.LogWarning("Canvas com a tag 'Inventario' não encontrado.");
         }
     }
 }

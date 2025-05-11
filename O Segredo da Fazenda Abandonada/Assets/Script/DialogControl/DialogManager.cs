@@ -60,7 +60,6 @@ public class DialogManager : MonoBehaviour
     IEnumerator DoAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay); // Waits for 'delay' seconds
-        Debug.Log("2 seconds passed!");
         // You can put any logic here
     }
 }
