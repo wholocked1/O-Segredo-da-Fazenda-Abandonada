@@ -43,6 +43,7 @@ public class ControledeInventario : MonoBehaviour
                 GameObject novoItem = Instantiate(item, slotTransform);
                 novoItem.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                 slot.itemSlot = novoItem;
+                Debug.Log("Foi");
                 return true;
             }
         }
@@ -97,7 +98,7 @@ public class ControledeInventario : MonoBehaviour
         Canvas.ForceUpdateCanvases();
         LayoutRebuilder.ForceRebuildLayoutImmediate(inventario.GetComponent<RectTransform>());
 
-        // Forçar o Canvas a atualizar e garantir que os slots apareçam
+        // Forï¿½ar o Canvas a atualizar e garantir que os slots apareï¿½am
         Canvas canvas = inventario.GetComponentInParent<Canvas>();
         if (canvas != null)
         {
@@ -125,7 +126,7 @@ public class ControledeInventario : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Canvas com a tag 'Inventario' não encontrado.");
+            Debug.LogWarning("Canvas com a tag 'Inventario' nï¿½o encontrado.");
         }
     }
 }
