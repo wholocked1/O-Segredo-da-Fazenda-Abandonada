@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Chest : MonoBehaviour, IInteracao
 {
-    public bool EstaAberto {get; private set;}
-    public string IdBau{ get; private set;}
+    public bool estaAberto {get; private set;}
+    public string chestID{ get; private set;}
     public GameObject itemPrefab; // o que o baú entrega ao player
 
     // Start is called before the first frame update
     void Start()
     {
-        IdBau = "BauEstabulo";
+        chestID = "BauEstabulo";
     }
 
     public bool PodeInteragir(){
-        return !EstaAberto;
+        return !estaAberto;
     }
 
     public void Interagir(){
@@ -32,9 +32,6 @@ public class Chest : MonoBehaviour, IInteracao
         }
     }
     public void SetAberto(bool aberto){
-
-        if(EstaAberto = aberto){
-            
-        }
+        estaAberto = aberto;
     }
 }

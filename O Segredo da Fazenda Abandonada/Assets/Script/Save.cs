@@ -40,14 +40,14 @@ public class Save : MonoBehaviour
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
             inventorySaveData = controledeInventario.GetitemsInventory(),
             itemSaveData = PegaStatusItems(),
-            chestSAveData = PegaStatusBaus();
+            saveBau = PegaStatusBaus()
         };
         File.WriteAllText(saveLocal, JsonUtility.ToJson(dadoSalvo));
     }
 
     private List<SaveBau> PegaStatusBaus(){
-        List<SaveBau> ChestStates = new List<Chest>();
-        foreach (Chest bau in chests)
+        List<SaveBau> ChestStates = new List<SaveBau>();
+        foreach (Chest bau in baus)
         {
             SaveBau saveBau = new SaveBau
             {
@@ -86,6 +86,7 @@ public class Save : MonoBehaviour
             // Aguarda o carregamento da nova cena
             SceneManager.sceneLoaded += OnSceneLoaded;
             LoadStatusItems(dadoSalvoCarregado.itemSaveData);
+            LoadChestState(dadoSalvoCarregado.saveBau);
         }
         else
         {
@@ -114,6 +115,23 @@ public class Save : MonoBehaviour
             {
                 Debug.Log("N�o achou ninguem");
                 item.SetColetado(false);
+            }
+        }
+    }
+
+    private void LoadChestState(List<SaveBau> chestState){
+        foreach(Chest chest in baus){
+            SaveBau chestSaveData = chestState.FirstOrDefault(c => c.chestID == chest.chestID);
+            if (chestSaveData != null)
+            {
+                chest.SetAberto(chestSaveData.estaAberto);
+                Debug.Log("Item ID: " + chest.chestID + " foiAberto: " + chest.estaAberto);
+                //chest.LoadChestState(chestSaveData);
+            }
+            else
+            {
+                Debug.Log("N�o achou ninguem");
+                chest.SetAberto(false);
             }
         }
     }
