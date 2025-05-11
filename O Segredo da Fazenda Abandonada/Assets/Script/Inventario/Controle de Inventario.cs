@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class ControledeInventario : MonoBehaviour
 {
     private DicionarioItems dicionarioItems;
-
     public GameObject inventario;
     public GameObject slotPrefab;
     public int slotsNumber;

@@ -20,7 +20,6 @@ public class Chest : MonoBehaviour, IInteracao
 
     public void Interagir(){
         if(!PodeInteragir()) return;
-
         AbrirBau();
     }
 
