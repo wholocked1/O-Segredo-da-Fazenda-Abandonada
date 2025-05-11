@@ -40,13 +40,23 @@ public class Save : MonoBehaviour
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
             inventorySaveData = controledeInventario.GetitemsInventory(),
             itemSaveData = PegaStatusItems(),
-            chestSAveData = 
+            chestSAveData = PegaStatusBaus();
         };
         File.WriteAllText(saveLocal, JsonUtility.ToJson(dadoSalvo));
     }
 
-    private List<Chest> PegaStatusBaus(){
-        
+    private List<SaveBau> PegaStatusBaus(){
+        List<SaveBau> ChestStates = new List<Chest>();
+        foreach (Chest bau in chests)
+        {
+            SaveBau saveBau = new SaveBau
+            {
+                chestID = bau.chestID,
+                estaAberto = bau.estaAberto
+            };
+            ChestStates.Add(saveBau);
+        }
+        return ChestStates;
     }
 
     private List<ItemSaveData> PegaStatusItems()
