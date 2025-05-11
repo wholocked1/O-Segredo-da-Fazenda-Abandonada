@@ -165,7 +165,8 @@ MonoBehaviour:
   slotPrefab: {fileID: 6744348407318478078, guid: 0f84fc02f9bcaa943bd554850b0a3b98, type: 3}
   slotsNumber: 21
   items:
-  - {fileID: 6351018243431064415, guid: 05e99f412859f1e41935f4d477a498e3, type: 3}
+  - {fileID: 605861831333623809, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
+  - {fileID: 6828947689898324151, guid: a6123fc3130dc0e4fa5449d128c5ee99, type: 3}
 --- !u!4 &22758199
 Transform:
   m_ObjectHideFlags: 0
@@ -1720,7 +1721,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 3688719476393893753, guid: 05e99f412859f1e41935f4d477a498e3, type: 3}
+  - {fileID: 7168564577589101607, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
+  - {fileID: 3879538949028514961, guid: a6123fc3130dc0e4fa5449d128c5ee99, type: 3}
 --- !u!1 &1083845458
 GameObject:
   m_ObjectHideFlags: 0

@@ -27,8 +27,7 @@ public class Chest : MonoBehaviour, IInteracao
     private void AbrirBau(){
         SetAberto(true);
         if(itemPrefab){
-            GameObject itemDropado = Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
-            
+           GameObject itemDropado = Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
         }
     }
     public void SetAberto(bool aberto){
