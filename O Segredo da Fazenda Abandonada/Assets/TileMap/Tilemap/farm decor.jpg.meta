@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      farm decor_0: -4456169629166634705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

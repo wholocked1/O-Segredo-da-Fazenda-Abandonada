@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      moinho_0: 5887798952258936225
+      moinho_1: 7777899781663616239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
