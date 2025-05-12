@@ -1111,6 +1111,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8557291030000300030, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1191,10 +1195,6 @@ PrefabInstance:
     - target: {fileID: 8456651513475415211, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1564614465602958714, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
-      propertyPath: m_Name
-      value: Baia5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2482,10 +2482,6 @@ PrefabInstance:
     - target: {fileID: 8456651513475415211, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1564614465602958714, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
-      propertyPath: m_Name
-      value: Baia4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5075,6 +5071,16 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 2
       m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -12, z: -1}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8556,7 +8562,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 8891821fd1c84c445baacf5650883260, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: c9248e1aa00355c4fb58d42db627069c, type: 2}
-  - m_RefCount: 51
+  - m_RefCount: 52
     m_Data: {fileID: 11400000, guid: c8870f6e437adfc45bd371757dceedd5, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 6ae25c2fc74213a48b0a3d90a0ec7891, type: 2}
@@ -8673,7 +8679,7 @@ Tilemap:
     m_Data: {fileID: -1112107653, guid: aa81631968777fc4b94b9294c3295fbb, type: 3}
   - m_RefCount: 6
     m_Data: {fileID: 1392745356, guid: aa81631968777fc4b94b9294c3295fbb, type: 3}
-  - m_RefCount: 51
+  - m_RefCount: 52
     m_Data: {fileID: 1295626558, guid: aa81631968777fc4b94b9294c3295fbb, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 371845198, guid: 647eb2c0cd9783b4d9a1bc81ee6c17af, type: 3}
@@ -8766,7 +8772,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -3957852845719275950, guid: 80345501055e7f3438d2cf5a5b022b3e, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 415
+  - m_RefCount: 416
     m_Data:
       e00: 1
       e01: 0
@@ -8803,13 +8809,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 419
+  - m_RefCount: 420
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -15, y: -13, z: 0}
-  m_Size: {x: 25, y: 13, z: 4}
+  m_Origin: {x: -15, y: -13, z: -1}
+  m_Size: {x: 25, y: 13, z: 5}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -8949,10 +8955,6 @@ PrefabInstance:
     - target: {fileID: 8456651513475415211, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1564614465602958714, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
-      propertyPath: m_Name
-      value: Baia2
       objectReference: {fileID: 0}
     - target: {fileID: 9023536083823687292, guid: 9bf85f5e51690ab449051ba737432600, type: 3}
       propertyPath: IDItem
@@ -9347,10 +9349,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1564614465602958714, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
-      propertyPath: m_Name
-      value: Baia3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9488,10 +9486,6 @@ PrefabInstance:
     - target: {fileID: 8456651513475415211, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1564614465602958714, guid: 273fc6d3960023a49b2c2ed987908497, type: 3}
-      propertyPath: m_Name
-      value: Baia1
       objectReference: {fileID: 0}
     - target: {fileID: 9023536083823687292, guid: 9bf85f5e51690ab449051ba737432600, type: 3}
       propertyPath: IDItem

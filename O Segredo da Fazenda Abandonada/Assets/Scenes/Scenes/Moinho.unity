@@ -2606,7 +2606,7 @@ Transform:
   m_GameObject: {fileID: 1161222333}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999985, y: -9.7016, z: -11}
+  m_LocalPosition: {x: 0.03999982, y: -9.7016, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2867,7 +2867,7 @@ Transform:
   m_GameObject: {fileID: 1227696426}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999985, y: -9.7016, z: -11}
+  m_LocalPosition: {x: 0.03999982, y: -9.7016, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6389,6 +6389,7 @@ MonoBehaviour:
   itemNecessario: madeira
   resolvido: 0
   bilhete: {fileID: 6741103332429492790, guid: b482c91540b6a6a4b94b605ac0a52e78, type: 3}
+  itemPrefab: {fileID: 2318034837367341553, guid: 0d29f5628e003c448a9348510dded315, type: 3}
 --- !u!1001 &1745263968
 PrefabInstance:
   m_ObjectHideFlags: 0

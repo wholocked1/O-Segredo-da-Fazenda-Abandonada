@@ -9,7 +9,7 @@ public class MoinhoPuzzle : MonoBehaviour, IInteracao
     public string itemNecessario = "madeira";
     public bool resolvido = false;
     public GameObject bilhete; 
-
+    public GameObject itemPrefab;
 
 
     private ControledeInventario inventario;
@@ -77,6 +77,7 @@ public class MoinhoPuzzle : MonoBehaviour, IInteracao
             "Você usou a madeira para consertar o moinho.",
             "Agora ele está funcionando." };
         DialogManager.instance.StartDialog(dialog);
+        Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
     }
     // Madeira falsa
     else

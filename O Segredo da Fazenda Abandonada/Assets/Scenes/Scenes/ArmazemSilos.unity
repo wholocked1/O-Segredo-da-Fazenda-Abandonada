@@ -2021,7 +2021,7 @@ MonoBehaviour:
   Dialogo:
     sentences:
     - O cofre precisa de uma senha para abrir.
-  itemPrefab: {fileID: 605861831333623809, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
+  itemPrefab: {fileID: 3753402855601166829, guid: 16b2d031d2b12ff44ad66c64a0f83703, type: 3}
   acertouCodigo: 0
   keypad: {fileID: 0}
 --- !u!61 &352402276
