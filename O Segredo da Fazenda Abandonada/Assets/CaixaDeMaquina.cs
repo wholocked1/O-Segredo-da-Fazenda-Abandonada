@@ -10,7 +10,8 @@ public class CaixaDeMaquina : MonoBehaviour, IInteracao
     public string[] IDItem;
     private ControledeInventario controledeInventario;
     public bool podeInteragir = true;
-
+    public GameObject itemPrefab;
+    private int qtdeItens = 0;
     void Start() {
     controledeInventario = ControledeInventario.Instance;
     if (controledeInventario == null) {
@@ -57,6 +58,7 @@ public class CaixaDeMaquina : MonoBehaviour, IInteracao
         {
             DialogoTriggerTem();
             podeInteragir = false;
+            Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
         }
         else
         {
@@ -81,9 +83,12 @@ public class CaixaDeMaquina : MonoBehaviour, IInteracao
     foreach(InventorySaveData item in inventorySaveDataList){
         Debug.Log("Comparando com item ID: " + item.ID);
         if(string.Compare(item.ID, id) == 0){
-            return true;
+            qtdeItens++;
         }
     }}
+    if(qtdeItens == IDItem.Length){
+        return true;
+    }
     return false;
     }
 }
