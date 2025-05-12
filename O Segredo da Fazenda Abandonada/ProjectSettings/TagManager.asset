@@ -8,7 +8,11 @@ TagManager:
   - Espantalho
   - Item
   - Inventario
+<<<<<<< HEAD
   - cofre
+=======
+  - Bilhete
+>>>>>>> 14c5481 (Implementa interação com bilhete narrativo no moinho)
   layers:
   - Default
   - TransparentFX
