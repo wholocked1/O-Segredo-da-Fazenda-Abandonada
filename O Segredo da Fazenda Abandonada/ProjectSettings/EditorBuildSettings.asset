@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenes/Moinho.unity
     guid: c7d3bc520351f964e8c2e48475d1ead3
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Inicio.unity
+    guid: 930c0b64d94ab4e19a56b70f2fd751a4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

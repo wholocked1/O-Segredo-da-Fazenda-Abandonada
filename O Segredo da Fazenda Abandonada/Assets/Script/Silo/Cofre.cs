@@ -10,6 +10,7 @@ public class Cofre : MonoBehaviour, IInteracao
     public GameObject itemPrefab;
     public bool acertouCodigo = false;
     public KeyPad keypad;
+    
     public void DialogoTrigger(){
         DialogManager.instance.StartDialog(Dialogo);
     }
