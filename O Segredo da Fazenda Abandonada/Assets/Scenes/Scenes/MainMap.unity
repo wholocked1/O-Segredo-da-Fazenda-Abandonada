@@ -187,8 +187,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.021950006, y: -0.0072000027, z: 0}
-    m_Extent: {x: 3.04505, y: 3.591, z: 0}
+    m_Center: {x: 0.02214992, y: -0.007849932, z: 0}
+    m_Extent: {x: 3.0457501, y: 3.59095, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1009,8 +1009,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0203, y: -0.010399997, z: 0}
-    m_Extent: {x: 0.5337, y: 0.5578, z: 0}
+    m_Center: {x: -0.020249993, y: -0.009149998, z: 0}
+    m_Extent: {x: 0.53384995, y: 0.55795, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1181,11 +1181,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[1]'
-      value: "Primavera: Feij\xE3o."
+      value: "Primavera: Feij\xE3o. Tomar cuidado com o final de \xE9poca, usar algumas
+        gotas do aditivo."
       objectReference: {fileID: 0}
     - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[2]'
-      value: 'Inverno: Soja.'
+      value: "Inverno: Soja. Usar Carbendazim na planta\xE7\xE3o."
       objectReference: {fileID: 0}
     - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[3]'
@@ -1266,7 +1267,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[4]'
-      value: 'Outono: Soja.'
+      value: "Outono: Soja. Est\xE1 fora de \xE9poca, ent\xE3o usar os neg\xF3cio
+        que o chefe comprou."
       objectReference: {fileID: 0}
     - target: {fileID: 3523491643496368077, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2236,7 +2238,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999979, y: -9.7016, z: -11}
+  m_LocalPosition: {x: 0.03999982, y: -9.7016, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2722,8 +2724,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.021800041, y: 1.9531, z: 0}
-    m_Extent: {x: 4.5144, y: 5.2295, z: 0}
+    m_Center: {x: -0.021149874, y: 1.95345, z: 0}
+    m_Extent: {x: 4.51385, y: 5.2304497, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4276,7 +4278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[2]'
-      value: "Inverno: Feij\xE3o."
+      value: "Inverno: Feij\xE3o. Usar Glifosato."
       objectReference: {fileID: 0}
     - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[3]'
@@ -4284,7 +4286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2832747952520001336, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[4]'
-      value: 'Outono: Milho.'
+      value: "Outono: Milho. Usar neonicotin\xF3ides para matar os bichinhos."
       objectReference: {fileID: 0}
     - target: {fileID: 3523491643496368077, guid: 8bf1f9e50000d6a4994870ea9128ec23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4905,8 +4907,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.19449997, y: -0.32660007, z: 0}
-    m_Extent: {x: 5.6456, y: 5.9572, z: 0}
+    m_Center: {x: 0.19490004, y: -0.3264501, z: 0}
+    m_Extent: {x: 5.6462, y: 5.95665, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5206,8 +5208,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.015699983, y: 0.001349926, z: 0}
-    m_Extent: {x: 3.3831, y: 3.64785, z: 0}
+    m_Center: {x: 0.015249968, y: 0.00040006638, z: 0}
+    m_Extent: {x: 3.38285, y: 3.6475, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -6632,8 +6634,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.009249985, y: -0.0017000139, z: 0}
-    m_Extent: {x: 0.84235, y: 0.61, z: 0}
+    m_Center: {x: -0.009599984, y: -0.001150012, z: 0}
+    m_Extent: {x: 0.8423, y: 0.61025, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -7212,7 +7214,7 @@ Transform:
   m_GameObject: {fileID: 1936948769}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999979, y: -9.7016, z: -11}
+  m_LocalPosition: {x: 0.03999982, y: -9.7016, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29921,103 +29923,6 @@ PolygonCollider2D:
       - {x: 0.7760591, y: -0.28080437}
       - {x: 0.79499996, y: 0.57}
   m_UseDelaunayMesh: 0
---- !u!1001 &5703299104637543682
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 605861831333623809, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_Name
-      value: keyItem
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 37.657
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 40.6942
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 6.0397
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -3.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289091450346218490, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4525791c88982b8468d10f99ad62d622, type: 3}
 --- !u!1001 &6456500228822288368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30163,7 +30068,6 @@ SceneRoots:
   - {fileID: 1936948771}
   - {fileID: 1680289986}
   - {fileID: 1450381033}
-  - {fileID: 5703299104637543682}
   - {fileID: 915151665}
   - {fileID: 6477109783040238354}
   - {fileID: 299511634}

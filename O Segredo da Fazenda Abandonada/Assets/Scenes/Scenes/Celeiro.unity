@@ -10190,8 +10190,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog:
     sentences:
+    - Acabei de acordar nesse lugar estranho...
     - Parece que algo aconteceu por aqui...
-    - Vamos ver o que temos
+    - Vamos ver o que temos por aqui
     - Use WASD para se movimentar, E para interagir
 --- !u!114 &1642000714
 MonoBehaviour:
