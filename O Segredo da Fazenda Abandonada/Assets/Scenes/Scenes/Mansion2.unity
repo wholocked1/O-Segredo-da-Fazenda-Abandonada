@@ -1145,7 +1145,7 @@ PrefabInstance:
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[1]'
       value: Pode-se ver uma foto de um cavalo em um celeiro ao lado de uma ferradura
-        com detalhes em prata.
+        verde.
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[2]'
@@ -1333,8 +1333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[1]'
-      value: "Aqui pode-se ver um cavalo no p\xF3dio ao lado de sua ferradura com
-        ornamentos verdes."
+      value: "Aqui pode-se ver um cavalo no p\xF3dio ao lado de sua ferradura magenta."
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[2]'
@@ -2052,8 +2051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[1]'
-      value: Aqui pode-se ver uma ferradura pendurada com ornamentos de diversas
-        cores.
+      value: Aqui pode-se ver uma ferradura pendurada azul.
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[2]'
@@ -2669,8 +2667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[1]'
-      value: "Esse cavalo pode ser vista no p\xF3dio ao lado de sua ferradura com
-        detalhes em bronze."
+      value: "Esse cavalo pode ser vista no p\xF3dio ao lado de sua ferradura amarela"
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[2]'
@@ -2679,7 +2676,7 @@ PrefabInstance:
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[3]'
       value: "Tem um peda\xE7o de uma not\xEDcia falando que logo depois da sua \xFAltima
-        vit\xF3ria ele morreu naturalmente na fazernda."
+        vit\xF3ria ele morreu naturalmente na fazenda."
       objectReference: {fileID: 0}
     - target: {fileID: 1158185366812991712, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7539,7 +7536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[1]'
-      value: Tem uma imagem de um cavalo junto a sua ferradura com ornamentos dourados
+      value: Tem uma imagem de um cavalo junto a sua ferradura rosa claro
       objectReference: {fileID: 0}
     - target: {fileID: -3296834185023011076, guid: 2332a31bb993d69438f6122bb7178ac2, type: 3}
       propertyPath: 'Dialog.sentences.Array.data[2]'
