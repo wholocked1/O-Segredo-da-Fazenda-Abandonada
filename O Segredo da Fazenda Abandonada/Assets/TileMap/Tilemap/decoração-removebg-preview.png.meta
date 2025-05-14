@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: f9441b0e5a51c174e9009d7e92679742
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3773704895013639107
+    second: "decora\xE7\xE3o-removebg-preview_0"
+  - first:
+      213: 4079803889836635389
+    second: "decora\xE7\xE3o-removebg-preview_1"
+  - first:
+      213: 8860834488547410233
+    second: "decora\xE7\xE3o-removebg-preview_2"
+  - first:
+      213: -3015420376942054183
+    second: "decora\xE7\xE3o-removebg-preview_3"
+  - first:
+      213: -2672841728526544971
+    second: "decora\xE7\xE3o-removebg-preview_4"
+  - first:
+      213: -125526778029996277
+    second: "decora\xE7\xE3o-removebg-preview_5"
+  - first:
+      213: 7118996798557629651
+    second: "decora\xE7\xE3o-removebg-preview_6"
+  - first:
+      213: -2568128016931199170
+    second: "decora\xE7\xE3o-removebg-preview_7"
+  - first:
+      213: 9082187700527480425
+    second: "decora\xE7\xE3o-removebg-preview_8"
+  - first:
+      213: -5005073310705683456
+    second: "decora\xE7\xE3o-removebg-preview_9"
+  - first:
+      213: -4830573262801871425
+    second: "decora\xE7\xE3o-removebg-preview_10"
+  - first:
+      213: -8257109058905298702
+    second: "decora\xE7\xE3o-removebg-preview_11"
+  - first:
+      213: -1862415877788813223
+    second: "decora\xE7\xE3o-removebg-preview_12"
+  - first:
+      213: -1884761766232288560
+    second: "decora\xE7\xE3o-removebg-preview_13"
+  - first:
+      213: -445072698155304732
+    second: "decora\xE7\xE3o-removebg-preview_14"
+  - first:
+      213: -1190269487115115160
+    second: "decora\xE7\xE3o-removebg-preview_15"
+  - first:
+      213: 182826950438933948
+    second: "decora\xE7\xE3o-removebg-preview_16"
+  - first:
+      213: -1406967132025377412
+    second: "decora\xE7\xE3o-removebg-preview_17"
+  - first:
+      213: -2820267663563492279
+    second: "decora\xE7\xE3o-removebg-preview_18"
+  - first:
+      213: 5874034958236093669
+    second: "decora\xE7\xE3o-removebg-preview_19"
+  - first:
+      213: 2885087499172598723
+    second: "decora\xE7\xE3o-removebg-preview_20"
+  - first:
+      213: -8804262373391240251
+    second: "decora\xE7\xE3o-removebg-preview_21"
+  - first:
+      213: 9096621505977159700
+    second: "decora\xE7\xE3o-removebg-preview_22"
+  - first:
+      213: 1012762293039667928
+    second: "decora\xE7\xE3o-removebg-preview_23"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_0"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 362
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3d07aab94ee5430800000000000000
+      internalID: 3773704895013639107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_1"
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 169
+        width: 471
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df438f6a5006e9830800000000000000
+      internalID: 4079803889836635389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_2"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9310667450208fa70800000000000000
+      internalID: 8860834488547410233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4f4efb4231726d0800000000000000
+      internalID: -3015420376942054183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_4"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 108
+        width: 64
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf8556fb9828ead0800000000000000
+      internalID: -2672841728526544971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_5"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 61
+        width: 157
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0709b97f0a024ef0800000000000000
+      internalID: -125526778029996277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_6"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 123
+        width: 98
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcab27ced1cbc260800000000000000
+      internalID: 7118996798557629651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_7"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 189
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e376615dc2d2c5cd0800000000000000
+      internalID: -2568128016931199170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ebc5918996a0e70800000000000000
+      internalID: 9082187700527480425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_9"
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 167
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004799887586a8ab0800000000000000
+      internalID: -5005073310705683456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_10"
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 156
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdd131063b56fcb0800000000000000
+      internalID: -4830573262801871425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_11"
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 159
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f82a481f0bd86d80800000000000000
+      internalID: -8257109058905298702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_12"
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 138
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958b95c60ae5726e0800000000000000
+      internalID: -1862415877788813223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_13"
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 137
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d29c75d82bf7d5e0800000000000000
+      internalID: -1884761766232288560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_14"
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 124
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e87a373db8c2d9f0800000000000000
+      internalID: -445072698155304732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_15"
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 128
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865648135305b7fe0800000000000000
+      internalID: -1190269487115115160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_16"
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 131
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5d74c8428898200800000000000000
+      internalID: 182826950438933948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_17"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 107
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d2afc09d2797ce0800000000000000
+      internalID: -1406967132025377412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_18"
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 92
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944f6cd90856cd8d0800000000000000
+      internalID: -2820267663563492279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_19"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 188
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec83eb2ca3c48150800000000000000
+      internalID: 5874034958236093669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_20"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c35a1e6bc3e90820800000000000000
+      internalID: 2885087499172598723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_21"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c37da4b40af0d580800000000000000
+      internalID: -8804262373391240251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_22"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41092ff4011bd3e70800000000000000
+      internalID: 9096621505977159700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "decora\xE7\xE3o-removebg-preview_23"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da1a8e80fd0e0e00800000000000000
+      internalID: 1012762293039667928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "decora\xE7\xE3o-removebg-preview_0": 3773704895013639107
+      "decora\xE7\xE3o-removebg-preview_1": 4079803889836635389
+      "decora\xE7\xE3o-removebg-preview_10": -4830573262801871425
+      "decora\xE7\xE3o-removebg-preview_11": -8257109058905298702
+      "decora\xE7\xE3o-removebg-preview_12": -1862415877788813223
+      "decora\xE7\xE3o-removebg-preview_13": -1884761766232288560
+      "decora\xE7\xE3o-removebg-preview_14": -445072698155304732
+      "decora\xE7\xE3o-removebg-preview_15": -1190269487115115160
+      "decora\xE7\xE3o-removebg-preview_16": 182826950438933948
+      "decora\xE7\xE3o-removebg-preview_17": -1406967132025377412
+      "decora\xE7\xE3o-removebg-preview_18": -2820267663563492279
+      "decora\xE7\xE3o-removebg-preview_19": 5874034958236093669
+      "decora\xE7\xE3o-removebg-preview_2": 8860834488547410233
+      "decora\xE7\xE3o-removebg-preview_20": 2885087499172598723
+      "decora\xE7\xE3o-removebg-preview_21": -8804262373391240251
+      "decora\xE7\xE3o-removebg-preview_22": 9096621505977159700
+      "decora\xE7\xE3o-removebg-preview_23": 1012762293039667928
+      "decora\xE7\xE3o-removebg-preview_3": -3015420376942054183
+      "decora\xE7\xE3o-removebg-preview_4": -2672841728526544971
+      "decora\xE7\xE3o-removebg-preview_5": -125526778029996277
+      "decora\xE7\xE3o-removebg-preview_6": 7118996798557629651
+      "decora\xE7\xE3o-removebg-preview_7": -2568128016931199170
+      "decora\xE7\xE3o-removebg-preview_8": 9082187700527480425
+      "decora\xE7\xE3o-removebg-preview_9": -5005073310705683456
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

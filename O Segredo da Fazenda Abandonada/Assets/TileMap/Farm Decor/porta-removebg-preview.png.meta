@@ -1,0 +1,2414 @@
+fileFormatVersion: 2
+guid: 50e3fcdd099ff35448eaf2f2efdd09f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8108516517976881135
+    second: porta-removebg-preview_0
+  - first:
+      213: 913085388728239145
+    second: porta-removebg-preview_1
+  - first:
+      213: -6843384752113973077
+    second: porta-removebg-preview_2
+  - first:
+      213: -3808108153978409422
+    second: porta-removebg-preview_3
+  - first:
+      213: 1694133308261829851
+    second: porta-removebg-preview_4
+  - first:
+      213: -2127906051884419232
+    second: porta-removebg-preview_5
+  - first:
+      213: -1652746731611968405
+    second: porta-removebg-preview_6
+  - first:
+      213: 5944398099682704521
+    second: porta-removebg-preview_7
+  - first:
+      213: -1715628317356179929
+    second: porta-removebg-preview_8
+  - first:
+      213: 292032420114454206
+    second: porta-removebg-preview_9
+  - first:
+      213: -2576230078487849664
+    second: porta-removebg-preview_10
+  - first:
+      213: -9111063922191872561
+    second: porta-removebg-preview_11
+  - first:
+      213: -7325279991185768280
+    second: porta-removebg-preview_12
+  - first:
+      213: -4372345982301292347
+    second: porta-removebg-preview_13
+  - first:
+      213: -2375733242788615723
+    second: porta-removebg-preview_14
+  - first:
+      213: -5256169380264274246
+    second: porta-removebg-preview_15
+  - first:
+      213: 1948131634983733593
+    second: porta-removebg-preview_16
+  - first:
+      213: -2688967904002850975
+    second: porta-removebg-preview_17
+  - first:
+      213: 5596210042696266320
+    second: porta-removebg-preview_18
+  - first:
+      213: -2335956877394678046
+    second: porta-removebg-preview_19
+  - first:
+      213: 6286241032807394607
+    second: porta-removebg-preview_20
+  - first:
+      213: -6805929296688115693
+    second: porta-removebg-preview_21
+  - first:
+      213: -3143394327612929191
+    second: porta-removebg-preview_22
+  - first:
+      213: -1911322277594991526
+    second: porta-removebg-preview_23
+  - first:
+      213: -2702537387916830907
+    second: porta-removebg-preview_24
+  - first:
+      213: -1185283523177749236
+    second: porta-removebg-preview_25
+  - first:
+      213: -4197311743514597513
+    second: porta-removebg-preview_26
+  - first:
+      213: -330580426382336240
+    second: porta-removebg-preview_27
+  - first:
+      213: -8112925720582923908
+    second: porta-removebg-preview_28
+  - first:
+      213: 7590152780351973037
+    second: porta-removebg-preview_29
+  - first:
+      213: 8831749153981659236
+    second: porta-removebg-preview_30
+  - first:
+      213: -4924088433600893101
+    second: porta-removebg-preview_31
+  - first:
+      213: -8502836290680729140
+    second: porta-removebg-preview_32
+  - first:
+      213: -5305245754035092615
+    second: porta-removebg-preview_33
+  - first:
+      213: 6956023410951297003
+    second: porta-removebg-preview_34
+  - first:
+      213: -6276671008560942656
+    second: porta-removebg-preview_35
+  - first:
+      213: 8879812467532029369
+    second: porta-removebg-preview_36
+  - first:
+      213: -4690159650870180209
+    second: porta-removebg-preview_37
+  - first:
+      213: 9048892015682136164
+    second: porta-removebg-preview_38
+  - first:
+      213: 8080698315908903048
+    second: porta-removebg-preview_39
+  - first:
+      213: -8090536243835906924
+    second: porta-removebg-preview_40
+  - first:
+      213: 487833218371891965
+    second: porta-removebg-preview_41
+  - first:
+      213: 3131783172084894224
+    second: porta-removebg-preview_42
+  - first:
+      213: 4963637877878005466
+    second: porta-removebg-preview_43
+  - first:
+      213: 2287436852799990673
+    second: porta-removebg-preview_44
+  - first:
+      213: -6463205541286969834
+    second: porta-removebg-preview_45
+  - first:
+      213: -2811609532018644342
+    second: porta-removebg-preview_46
+  - first:
+      213: 7834596970405638935
+    second: porta-removebg-preview_47
+  - first:
+      213: -8742625698055428409
+    second: porta-removebg-preview_48
+  - first:
+      213: 3477648552403626202
+    second: porta-removebg-preview_49
+  - first:
+      213: 7986663618872148864
+    second: porta-removebg-preview_50
+  - first:
+      213: -5220165517700106705
+    second: porta-removebg-preview_51
+  - first:
+      213: -1269936921539751536
+    second: porta-removebg-preview_52
+  - first:
+      213: -4991132829820930580
+    second: porta-removebg-preview_53
+  - first:
+      213: 7368242532803194021
+    second: porta-removebg-preview_54
+  - first:
+      213: -3247180548486575212
+    second: porta-removebg-preview_55
+  - first:
+      213: -7470623562969974889
+    second: porta-removebg-preview_56
+  - first:
+      213: 4845610695598489068
+    second: porta-removebg-preview_57
+  - first:
+      213: -8281850267204007401
+    second: porta-removebg-preview_58
+  - first:
+      213: -6326932078593670288
+    second: porta-removebg-preview_59
+  - first:
+      213: -3003469983588771545
+    second: porta-removebg-preview_60
+  - first:
+      213: 641784638909871058
+    second: porta-removebg-preview_61
+  - first:
+      213: -6510031072632147814
+    second: porta-removebg-preview_62
+  - first:
+      213: 323900215214466507
+    second: porta-removebg-preview_63
+  - first:
+      213: 1645818108462666731
+    second: porta-removebg-preview_64
+  - first:
+      213: -1224434256319543452
+    second: porta-removebg-preview_65
+  - first:
+      213: 2255750360725653939
+    second: porta-removebg-preview_66
+  - first:
+      213: 1693484023668585085
+    second: porta-removebg-preview_67
+  - first:
+      213: 6183018388744309284
+    second: porta-removebg-preview_68
+  - first:
+      213: -565715076794881872
+    second: porta-removebg-preview_69
+  - first:
+      213: 338942835584353912
+    second: porta-removebg-preview_70
+  - first:
+      213: 1948236795216808138
+    second: porta-removebg-preview_71
+  - first:
+      213: 326437198086146257
+    second: porta-removebg-preview_72
+  - first:
+      213: 5770911062462313878
+    second: porta-removebg-preview_73
+  - first:
+      213: 8920948596387528502
+    second: porta-removebg-preview_74
+  - first:
+      213: 1049466913634154201
+    second: porta-removebg-preview_75
+  - first:
+      213: 708398952242441964
+    second: porta-removebg-preview_76
+  - first:
+      213: 7553769624835456239
+    second: porta-removebg-preview_77
+  - first:
+      213: 4447154668319602210
+    second: porta-removebg-preview_78
+  - first:
+      213: -2970323600418694639
+    second: porta-removebg-preview_79
+  - first:
+      213: 2983259116131496345
+    second: porta-removebg-preview_80
+  - first:
+      213: -1929468166832251891
+    second: porta-removebg-preview_81
+  - first:
+      213: 422028471701934976
+    second: porta-removebg-preview_82
+  - first:
+      213: 7573842867438498741
+    second: porta-removebg-preview_83
+  - first:
+      213: 1736167122220030533
+    second: porta-removebg-preview_84
+  - first:
+      213: 4631108994977968041
+    second: porta-removebg-preview_85
+  - first:
+      213: -2917247060284596404
+    second: porta-removebg-preview_86
+  - first:
+      213: -8696746605392200487
+    second: porta-removebg-preview_87
+  - first:
+      213: 6457460691010023254
+    second: porta-removebg-preview_88
+  - first:
+      213: -1300316060535909146
+    second: porta-removebg-preview_89
+  - first:
+      213: -1728731171374942617
+    second: porta-removebg-preview_90
+  - first:
+      213: 4507362329484170103
+    second: porta-removebg-preview_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: porta-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 501
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe73665ffcc378070800000000000000
+      internalID: 8108516517976881135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 500
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9240fb4c25eebac00800000000000000
+      internalID: 913085388728239145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 501
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba80ce463d96701a0800000000000000
+      internalID: -6843384752113973077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 519
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e29d76fc1e62bc0800000000000000
+      internalID: -3808108153978409422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 519
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc8a199445c28710800000000000000
+      internalID: 1694133308261829851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 519
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067760e48b82872e0800000000000000
+      internalID: -2127906051884419232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 518
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ca49eaa934019e0800000000000000
+      internalID: -1652746731611968405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 529
+        width: 81
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c381fa39ebe7250800000000000000
+      internalID: 5944398099682704521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 528
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e3269922dd038e0800000000000000
+      internalID: -1715628317356179929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 500
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6d1d750f18d0400800000000000000
+      internalID: 292032420114454206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 500
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0451e00a4646f3cd0800000000000000
+      internalID: -2576230078487849664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 472
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd40ef92affe8180800000000000000
+      internalID: -9111063922191872561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 472
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a08815b8a0675a90800000000000000
+      internalID: -7325279991185768280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 472
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c833d9ae7e4253c0800000000000000
+      internalID: -4372345982301292347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 472
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d96f7ee333b70fd0800000000000000
+      internalID: -2375733242788615723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 495
+        width: 77
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6101a0cc55e07b0800000000000000
+      internalID: -5256169380264274246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 495
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95908ee7667290b10800000000000000
+      internalID: 1948131634983733593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 442
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fbb7520fddeaad0800000000000000
+      internalID: -2688967904002850975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 442
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0527263426bb9ad40800000000000000
+      internalID: 5596210042696266320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 442
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee6240b893059fd0800000000000000
+      internalID: -2335956877394678046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 442
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d28f4d9e63d3750800000000000000
+      internalID: 6286241032807394607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 442
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3101b703d5b7c81a0800000000000000
+      internalID: -6805929296688115693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 442
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b47a1738b6064d0800000000000000
+      internalID: -3143394327612929191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 400
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54f8a0e38e9975e0800000000000000
+      internalID: -1911322277594991526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 400
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54751097098ae7ad0800000000000000
+      internalID: -2702537387916830907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 420
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05edd26ae60d8fe0800000000000000
+      internalID: -1185283523177749236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 420
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777ac34253720c5c0800000000000000
+      internalID: -4197311743514597513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 420
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f98cb8ada896bf0800000000000000
+      internalID: -330580426382336240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 420
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79568f8a09196f80800000000000000
+      internalID: -8112925720582923908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 420
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6a2d74db3a55960800000000000000
+      internalID: 7590152780351973037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 384
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468fe6c101da09a70800000000000000
+      internalID: 8831749153981659236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 384
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35feb9898af1aabb0800000000000000
+      internalID: -4924088433600893101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 384
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1dcae817bdff980800000000000000
+      internalID: -8502836290680729140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 384
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973c698581bff56b0800000000000000
+      internalID: -5305245754035092615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 385
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be79d0b0072c88060800000000000000
+      internalID: 6956023410951297003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 385
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c17bb219f8c4e8a0800000000000000
+      internalID: -6276671008560942656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 381
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdd457546e6b3b70800000000000000
+      internalID: 8879812467532029369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 376
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f864306a5a439eeb0800000000000000
+      internalID: -4690159650870180209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 326
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4682a9d585f149d70800000000000000
+      internalID: 9048892015682136164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 326
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880f8d01e48642070800000000000000
+      internalID: 8080698315908903048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494dcb7d624a8bf80800000000000000
+      internalID: -8090536243835906924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 341
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df231ba3ab125c600800000000000000
+      internalID: 487833218371891965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 294
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a8aadb334567b20800000000000000
+      internalID: 3131783172084894224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 293
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade9798f95262e440800000000000000
+      internalID: 4963637877878005466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 294
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19be741c2bb9ebf10800000000000000
+      internalID: 2287436852799990673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 293
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ef041cdc41e46a0800000000000000
+      internalID: -6463205541286969834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 294
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a2de4f6082bf8d0800000000000000
+      internalID: -2811609532018644342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 294
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71331636f641abc60800000000000000
+      internalID: 7834596970405638935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 266
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6643f7f34fba680800000000000000
+      internalID: -8742625698055428409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 266
+        width: 12
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad86babdee6134030800000000000000
+      internalID: 3477648552403626202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 264
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08309670f3456de60800000000000000
+      internalID: 7986663618872148864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 264
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26fdb88e1f3e87b0800000000000000
+      internalID: -5220165517700106705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 264
+        width: 13
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09158782917406ee0800000000000000
+      internalID: -1269936921539751536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 266
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5bbbba22febbab0800000000000000
+      internalID: -4991132829820930580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 266
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aca8a28b81414660800000000000000
+      internalID: 7368242532803194021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 264
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b46e5de72bfe2d0800000000000000
+      internalID: -3247180548486575212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 201
+        width: 97
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797f2865373035890800000000000000
+      internalID: -7470623562969974889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 201
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced3bf621411f3340800000000000000
+      internalID: 4845610695598489068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 202
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ac454af05f01d80800000000000000
+      internalID: -8281850267204007401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 232
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0738669cbc83238a0800000000000000
+      internalID: -6326932078593670288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 232
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72994a686f78156d0800000000000000
+      internalID: -3003469983588771545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 172
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d376809ab318e800800000000000000
+      internalID: 641784638909871058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 172
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9071072b39b7a5a0800000000000000
+      internalID: -6510031072632147814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 171
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5e7869789be7400800000000000000
+      internalID: 323900215214466507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 171
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be392d789de17d610800000000000000
+      internalID: 1645818108462666731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 172
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467014df78fe10fe0800000000000000
+      internalID: -1224434256319543452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 172
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9030960090e4f10800000000000000
+      internalID: 2255750360725653939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 120
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72b09f3fb6708710800000000000000
+      internalID: 1693484023668585085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 121
+        width: 58
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a00dc277e7ec550800000000000000
+      internalID: 6183018388744309284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 118
+        width: 99
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8ee8b822d2628f0800000000000000
+      internalID: -565715076794881872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 118
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8764b2296ba24b400800000000000000
+      internalID: 338942835584353912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 119
+        width: 75
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac84e350b07890b10800000000000000
+      internalID: 1948236795216808138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 64
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d80661f6ecb78400800000000000000
+      internalID: 326437198086146257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 64
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69530742905661050800000000000000
+      internalID: 5770911062462313878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 78
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fb233bb739dcb70800000000000000
+      internalID: 8920948596387528502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 79
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d670bef894709e00800000000000000
+      internalID: 1049466913634154201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 79
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee6ba3081db4d900800000000000000
+      internalID: 708398952242441964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 78
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecf373c37164d860800000000000000
+      internalID: 7553769624835456239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 7
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226f86adb9777bd30800000000000000
+      internalID: 4447154668319602210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 7
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a95114c6a47c6d0800000000000000
+      internalID: -2970323600418694639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 37
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991b6f13c5aa66920800000000000000
+      internalID: 2983259116131496345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 9
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c1a8ecce62935e0800000000000000
+      internalID: -1929468166832251891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 9
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08315e4b8a85bd500800000000000000
+      internalID: 422028471701934976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 45
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b33c42c5f1bb1960800000000000000
+      internalID: 7573842867438498741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 45
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a13ae8cca181810800000000000000
+      internalID: 1736167122220030533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 45
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af27c12811054040800000000000000
+      internalID: 4631108994977968041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 45
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f1fa1414bd387d0800000000000000
+      internalID: -2917247060284596404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc730c2a03fe4780800000000000000
+      internalID: -8696746605392200487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 11
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f63be09428d9950800000000000000
+      internalID: 6457460691010023254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 10
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4950cae6954fde0800000000000000
+      internalID: -1300316060535909146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 10
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7663d0aa8205208e0800000000000000
+      internalID: -1728731171374942617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: porta-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 10
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77391ea582e5d8e30800000000000000
+      internalID: 4507362329484170103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      porta-removebg-preview_0: 8108516517976881135
+      porta-removebg-preview_1: 913085388728239145
+      porta-removebg-preview_10: -2576230078487849664
+      porta-removebg-preview_11: -9111063922191872561
+      porta-removebg-preview_12: -7325279991185768280
+      porta-removebg-preview_13: -4372345982301292347
+      porta-removebg-preview_14: -2375733242788615723
+      porta-removebg-preview_15: -5256169380264274246
+      porta-removebg-preview_16: 1948131634983733593
+      porta-removebg-preview_17: -2688967904002850975
+      porta-removebg-preview_18: 5596210042696266320
+      porta-removebg-preview_19: -2335956877394678046
+      porta-removebg-preview_2: -6843384752113973077
+      porta-removebg-preview_20: 6286241032807394607
+      porta-removebg-preview_21: -6805929296688115693
+      porta-removebg-preview_22: -3143394327612929191
+      porta-removebg-preview_23: -1911322277594991526
+      porta-removebg-preview_24: -2702537387916830907
+      porta-removebg-preview_25: -1185283523177749236
+      porta-removebg-preview_26: -4197311743514597513
+      porta-removebg-preview_27: -330580426382336240
+      porta-removebg-preview_28: -8112925720582923908
+      porta-removebg-preview_29: 7590152780351973037
+      porta-removebg-preview_3: -3808108153978409422
+      porta-removebg-preview_30: 8831749153981659236
+      porta-removebg-preview_31: -4924088433600893101
+      porta-removebg-preview_32: -8502836290680729140
+      porta-removebg-preview_33: -5305245754035092615
+      porta-removebg-preview_34: 6956023410951297003
+      porta-removebg-preview_35: -6276671008560942656
+      porta-removebg-preview_36: 8879812467532029369
+      porta-removebg-preview_37: -4690159650870180209
+      porta-removebg-preview_38: 9048892015682136164
+      porta-removebg-preview_39: 8080698315908903048
+      porta-removebg-preview_4: 1694133308261829851
+      porta-removebg-preview_40: -8090536243835906924
+      porta-removebg-preview_41: 487833218371891965
+      porta-removebg-preview_42: 3131783172084894224
+      porta-removebg-preview_43: 4963637877878005466
+      porta-removebg-preview_44: 2287436852799990673
+      porta-removebg-preview_45: -6463205541286969834
+      porta-removebg-preview_46: -2811609532018644342
+      porta-removebg-preview_47: 7834596970405638935
+      porta-removebg-preview_48: -8742625698055428409
+      porta-removebg-preview_49: 3477648552403626202
+      porta-removebg-preview_5: -2127906051884419232
+      porta-removebg-preview_50: 7986663618872148864
+      porta-removebg-preview_51: -5220165517700106705
+      porta-removebg-preview_52: -1269936921539751536
+      porta-removebg-preview_53: -4991132829820930580
+      porta-removebg-preview_54: 7368242532803194021
+      porta-removebg-preview_55: -3247180548486575212
+      porta-removebg-preview_56: -7470623562969974889
+      porta-removebg-preview_57: 4845610695598489068
+      porta-removebg-preview_58: -8281850267204007401
+      porta-removebg-preview_59: -6326932078593670288
+      porta-removebg-preview_6: -1652746731611968405
+      porta-removebg-preview_60: -3003469983588771545
+      porta-removebg-preview_61: 641784638909871058
+      porta-removebg-preview_62: -6510031072632147814
+      porta-removebg-preview_63: 323900215214466507
+      porta-removebg-preview_64: 1645818108462666731
+      porta-removebg-preview_65: -1224434256319543452
+      porta-removebg-preview_66: 2255750360725653939
+      porta-removebg-preview_67: 1693484023668585085
+      porta-removebg-preview_68: 6183018388744309284
+      porta-removebg-preview_69: -565715076794881872
+      porta-removebg-preview_7: 5944398099682704521
+      porta-removebg-preview_70: 338942835584353912
+      porta-removebg-preview_71: 1948236795216808138
+      porta-removebg-preview_72: 326437198086146257
+      porta-removebg-preview_73: 5770911062462313878
+      porta-removebg-preview_74: 8920948596387528502
+      porta-removebg-preview_75: 1049466913634154201
+      porta-removebg-preview_76: 708398952242441964
+      porta-removebg-preview_77: 7553769624835456239
+      porta-removebg-preview_78: 4447154668319602210
+      porta-removebg-preview_79: -2970323600418694639
+      porta-removebg-preview_8: -1715628317356179929
+      porta-removebg-preview_80: 2983259116131496345
+      porta-removebg-preview_81: -1929468166832251891
+      porta-removebg-preview_82: 422028471701934976
+      porta-removebg-preview_83: 7573842867438498741
+      porta-removebg-preview_84: 1736167122220030533
+      porta-removebg-preview_85: 4631108994977968041
+      porta-removebg-preview_86: -2917247060284596404
+      porta-removebg-preview_87: -8696746605392200487
+      porta-removebg-preview_88: 6457460691010023254
+      porta-removebg-preview_89: -1300316060535909146
+      porta-removebg-preview_9: 292032420114454206
+      porta-removebg-preview_90: -1728731171374942617
+      porta-removebg-preview_91: 4507362329484170103
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

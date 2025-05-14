@@ -1,0 +1,176 @@
+using System.Collections.Generic;
+using UnityEngine;
+using System.IO;
+using System.Linq;
+using UnityEngine.SceneManagement;
+
+public class Save : MonoBehaviour
+{
+    private string saveLocal;
+    private ControledeInventario controledeInventario;
+    private Item[] items;
+    private DadoSalvo dadoSalvoCarregado;
+    private Chest[] baus;
+
+    void Awake()
+    {
+        InicializarComponentes();
+    }
+
+    void Start()
+    {
+        LoadGame();
+    }
+
+    private void InicializarComponentes()
+    {
+        controledeInventario = ControledeInventario.Instance;
+        saveLocal = Path.Combine(Application.persistentDataPath, "saveData.json");
+        items = FindObjectsByType<Item>(FindObjectsSortMode.None); // Updated to use FindObjectsByType
+        Debug.Log("Itens encontrados: " + items.Length);
+        Debug.Log("Save file path: " + saveLocal);
+        baus = FindObjectsOfType<Chest>();
+    }
+
+    public void SaveGame()
+    {
+        DadoSalvo dadoSalvo = new DadoSalvo
+        {
+            ActiveScene = SceneManager.GetActiveScene().name,
+            playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
+            inventorySaveData = controledeInventario.GetitemsInventory(),
+            itemSaveData = PegaStatusItems(),
+            saveBau = PegaStatusBaus()
+        };
+        File.WriteAllText(saveLocal, JsonUtility.ToJson(dadoSalvo));
+    }
+
+    private List<SaveBau> PegaStatusBaus(){
+        List<SaveBau> ChestStates = new List<SaveBau>();
+        foreach (Chest bau in baus)
+        {
+            SaveBau saveBau = new SaveBau
+            {
+                chestID = bau.chestID,
+                estaAberto = bau.estaAberto
+            };
+            ChestStates.Add(saveBau);
+        }
+        return ChestStates;
+    }
+
+    private List<ItemSaveData> PegaStatusItems()
+    {
+        List<ItemSaveData> itemSaveData = new List<ItemSaveData>();
+        foreach (Item item in items)
+        {
+            ItemSaveData itemData = new ItemSaveData
+            {
+                ID = item.id,
+                foiColetado = item.foiColetado
+            };
+            itemSaveData.Add(itemData);
+        }
+        return itemSaveData;
+    }
+
+    public void LoadGame()
+    {
+        if (File.Exists(saveLocal))
+        {
+            string json = File.ReadAllText(saveLocal);
+            dadoSalvoCarregado = JsonUtility.FromJson<DadoSalvo>(json);
+            SceneManager.LoadScene(dadoSalvoCarregado.ActiveScene);
+            GameObject.FindGameObjectWithTag("Player").transform.position = dadoSalvoCarregado.playerPosition;
+            controledeInventario.SetItemsInventory(dadoSalvoCarregado.inventorySaveData);
+            // Aguarda o carregamento da nova cena
+            SceneManager.sceneLoaded += OnSceneLoaded;
+            LoadStatusItems(dadoSalvoCarregado.itemSaveData);
+            LoadChestState(dadoSalvoCarregado.saveBau);
+        }
+        else
+        {
+            controledeInventario.SetItemsInventory(new List<InventorySaveData>());
+            foreach (Item item in items)
+            {
+                item.SetColetado(false);
+            }
+
+            SaveGame();
+        }
+    }
+
+    private void LoadStatusItems(List<ItemSaveData> itemSaveDatas)
+    {
+        foreach (Item item in items)
+        {
+            ItemSaveData itemSaveData = itemSaveDatas.FirstOrDefault(i => i.ID == item.id);
+            if (itemSaveData != null)
+            {
+                item.SetColetado(itemSaveData.foiColetado);
+                Debug.Log("Item ID: " + item.id + " foiColetado: " + item.foiColetado);
+                item.loadItem(itemSaveData);
+            }
+            else
+            {
+                Debug.Log("N�o achou ninguem");
+                item.SetColetado(false);
+            }
+        }
+    }
+
+    private void LoadChestState(List<SaveBau> chestState){
+        foreach(Chest chest in baus){
+            SaveBau chestSaveData = chestState.FirstOrDefault(c => c.chestID == chest.chestID);
+            if (chestSaveData != null)
+            {
+                chest.SetAberto(chestSaveData.estaAberto);
+                Debug.Log("Item ID: " + chest.chestID + " foiAberto: " + chest.estaAberto);
+                //chest.LoadChestState(chestSaveData);
+            }
+            else
+            {
+                Debug.Log("N�o achou ninguem");
+                chest.SetAberto(false);
+            }
+        }
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+
+        // Recarrega componentes ap�s a cena estar carregada
+        items = FindObjectsByType<Item>(FindObjectsSortMode.None);
+        controledeInventario = ControledeInventario.Instance;
+
+        if (dadoSalvoCarregado != null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                player.transform.position = dadoSalvoCarregado.playerPosition;
+            }
+            else
+            {
+                Debug.LogWarning("Player n�o encontrado ap�s carregar a cena.");
+            }
+
+            if (controledeInventario != null)
+            {
+                controledeInventario.SetItemsInventory(dadoSalvoCarregado.inventorySaveData);
+            }
+            else
+            {
+                Debug.LogWarning("Controle de Invent�rio n�o foi encontrado ap�s carregar a cena.");
+            }
+
+            LoadStatusItems(dadoSalvoCarregado.itemSaveData);
+        }
+        else
+        {
+            Debug.LogError("dadoSalvoCarregado est� nulo!");
+        }
+    }
+
+}
