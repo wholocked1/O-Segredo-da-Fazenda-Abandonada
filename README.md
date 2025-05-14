@@ -8,6 +8,10 @@ Trabalho de Desenvolvimento de Jogos apresentado ao Centro Universitário FEI, c
 - Larissa Gonçalves de Silva
 - Luca Anequini Antoniazzi
 
+## Link do vídeo de GamePlay
+
+[O Segredo da Fazenda Abandonada]([url](https://www.youtube.com/watch?v=odIAoaAv9MU))
+
 ## Tópicos
 - [Introdução](./docs/1-Introdução.md)
 - [Público Alvo](./docs/2-Publico_Alvo.md)
