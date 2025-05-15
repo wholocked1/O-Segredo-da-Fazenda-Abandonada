@@ -5,14 +5,11 @@ using UnityEngine;
 public class Chest : MonoBehaviour, IInteracao
 {
     public bool estaAberto {get; private set;}
-    public string chestID{ get; private set;}
+    public string chestID;
     public GameObject itemPrefab; // o que o baú entrega ao player
 
     // Start is called before the first frame update
-    void Start()
-    {
-        chestID = "BauEstabulo";
-    }
+    
 
     public bool PodeInteragir(){
         return !estaAberto;
