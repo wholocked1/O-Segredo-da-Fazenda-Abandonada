@@ -1,11 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Control : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
-    void OnGUI(){
-        if(GUI.Button(new Rect(Screen.width - 220, 300, 120, 53), "JOGAR")){
-            SceneManager.LoadScene("Celeiro");
-        }
+    public string sceneIndex;
+    public void LoadScene(string sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
+    }
+
+    public void SairJogo()
+    {
+        Application.Quit();
     }
 }
