@@ -93,5 +93,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog:
     sentences:
-    - "Aqui \xE9 poss\xEDvel ver algumas inform\xE7\xF5es sobre um cavalo de corrida:"
+    - "Aqui \xE9 poss\xEDvel ver algumas informa\xE7\xF5es sobre um cavalo de corrida:"
   podeInteragir: 1
